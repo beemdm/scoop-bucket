@@ -19,7 +19,7 @@
     ],
     "checkver": "<div.*>Xreveal ([\\d.]+)</div>",
     "autoupdate": {
-        "url": "https://download.yubsoft.com/Xreveal_$version.exe",
+        "url": "https://download.yubsoft.com/Xreveal_$version.exe#/Xreveal.exe",
         "hash": "$url.sha256"
     }
 }
