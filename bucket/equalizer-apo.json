@@ -1,0 +1,55 @@
+{
+    "version": "1.2.1",
+    "description": "A system-wide equalizer for Windows 7 / 8 / 8.1 / 10.",
+    "homepage": "https://equalizerapo.sourceforge.io/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO64-1.2.1.exe#/EqualizerAPO.exe",
+            "hash": "bd0ac49633d02a387f906b5d4f47f9235d229470742d3433018245136756f583"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO32-1.2.1.exe#/EqualizerAPO.exe",
+            "hash": "f0bd8bf2d5c133989c48fd6c0d3503a98599c0955e4ef2317c099a6d4bcfdb20"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\EqualizerAPO.exe\" -Removal"
+        ]
+    },
+    "bin": [
+        "Benchmark.exe",
+        "Configurator.exe",
+        "Editor.exe"
+    ],
+    "shortcuts": [
+        [
+            "Benchmark.exe",
+            "Benchmark"
+        ],
+        [
+            "Configurator.exe",
+            "Configurator"
+        ],
+        [
+            "Editor.exe",
+            "Configuration Editor"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/equalizerapo/files/",
+        "regex": "<span class=\"name\">([\\d.]+)</span></a>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO64-$version.exe#/EqualizerAPO.exe"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO32-$version.exe#/EqualizerAPO.exe"
+            }
+        },
+        "hash": "$url.sha256"
+    }
+}
