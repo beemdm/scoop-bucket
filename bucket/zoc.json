@@ -1,0 +1,44 @@
+{
+    "version": "7.25.8",
+    "description": "SSH client and terminal emulator for Windows and macOS.",
+    "homepage": "https://www.emtec.com/zoc/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.emtec.com/downloads/zoc/zoc7258_x64.exe#/zoc.exe",
+            "hash": "c5af0a0b813bf702d8df4eb30a86f4bc47e988f4ae5b5035fa2945cbd4a15482"
+        },
+        "32bit": {
+            "url": "https://www.emtec.com/downloads/zoc/zoc7258.exe#/zoc.exe",
+            "hash": "64b4e599899caf7a9d945e814223d6fe9f1f241f4155c17df156d4211bc59312"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\zoc.exe\" -Removal",
+            "Expand-7zipArchive \"$dir\\setup.fil\" -Removal"
+        ]
+    },
+    "bin": "zoc.exe",
+    "shortcuts": [
+        [
+            "zoc.exe",
+            "ZOC Terminal"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.emtec.com/downloads/zoc/zoc_changes.txt",
+        "regex": "\\* VERSION ([\\d.]+) \\(\\d{2}\\.\\d{2}\\.\\d{4}\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.emtec.com/downloads/zoc/zoc$cleanVersion_x64.exe#/zoc.exe"
+            },
+            "32bit": {
+                "url": "https://www.emtec.com/downloads/zoc/zoc$cleanVersion.exe#/zoc.exe"
+            }
+        },
+        "hash": "$url.sha256"
+    }
+}
