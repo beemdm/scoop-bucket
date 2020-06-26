@@ -12,6 +12,10 @@
             "Bandcamp Downloader"
         ]
     ],
+    "persist": [
+        "BandcampDownloader.ini",
+        "BandcampDownloader.log"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Otiel/BandcampDownloader/releases/download/v$version/BandcampDownloader.zip",
