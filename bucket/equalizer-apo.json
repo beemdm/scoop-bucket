@@ -26,15 +26,15 @@
     "shortcuts": [
         [
             "Benchmark.exe",
-            "Benchmark"
+            "Equalizer APO/Benchmark"
         ],
         [
             "Configurator.exe",
-            "Configurator"
+            "Equalizer APO/Configurator"
         ],
         [
             "Editor.exe",
-            "Configuration Editor"
+            "Equalizer APO/Configuration Editor"
         ]
     ],
     "checkver": {
