@@ -5,20 +5,12 @@
     "license": "MIT",
     "url": "https://github.com/Otiel/BandcampDownloader/releases/download/v1.3.1/BandcampDownloader.zip",
     "hash": "5e523642d077cb8bc167b3daa8856170862cba6fb1d8592b28e2cc50e0aae85d",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\BandcampDownloader.ini\")) { New-Item \"$dir\\BandcampDownloader.ini\" | Out-Null }",
-        "if (!(Test-Path \"$persist_dir\\BandcampDownloader.log\")) { New-Item \"$dir\\BandcampDownloader.log\" | Out-Null }"
-    ],
     "bin": "BandcampDownloader.exe",
     "shortcuts": [
         [
             "BandcampDownloader.exe",
             "Bandcamp Downloader"
         ]
-    ],
-    "persist": [
-        "BandcampDownloader.ini",
-        "BandcampDownloader.log"
     ],
     "checkver": "github",
     "autoupdate": {
