@@ -5,18 +5,13 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO64-1.2.1.exe#/EqualizerAPO.exe",
+            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO64-1.2.1.exe#/dl.7z",
             "hash": "bd0ac49633d02a387f906b5d4f47f9235d229470742d3433018245136756f583"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO32-1.2.1.exe#/EqualizerAPO.exe",
+            "url": "https://downloads.sourceforge.net/project/equalizerapo/1.2.1/EqualizerAPO32-1.2.1.exe#/dl.7z",
             "hash": "f0bd8bf2d5c133989c48fd6c0d3503a98599c0955e4ef2317c099a6d4bcfdb20"
         }
-    },
-    "installer": {
-        "script": [
-            "Expand-7zipArchive \"$dir\\EqualizerAPO.exe\" -Removal"
-        ]
     },
     "bin": [
         "Benchmark.exe",
@@ -44,10 +39,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO64-$version.exe#/EqualizerAPO.exe"
+                "url": "https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO64-$version.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO32-$version.exe#/EqualizerAPO.exe"
+                "url": "https://downloads.sourceforge.net/project/equalizerapo/$version/EqualizerAPO32-$version.exe#/dl.7z"
             }
         },
         "hash": "$url.sha256"
