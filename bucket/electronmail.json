@@ -6,9 +6,7 @@
     "url": "https://github.com/vladimiry/ElectronMail/releases/download/v4.6.0/electron-mail-4.6.0-windows-nsis-installer.exe#/dl.7z",
     "hash": "79abbb77385f7bfc7f2b8a439df8a8bbfe029a0be14432153d58e8f137481111",
     "installer": {
-        "script": [
-            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -Removal"
-        ]
+        "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -Removal"
     },
     "bin": "$PLUGINSDIR/ElectronMail.exe",
     "shortcuts": [

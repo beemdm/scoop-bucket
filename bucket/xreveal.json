@@ -6,9 +6,7 @@
     "url": "https://download.yubsoft.com/Xreveal_2.0.0.exe#/Xreveal.exe",
     "hash": "49c0df9761d4f3619f1a1731d2e2bdc122c60ea4fd68d2b1f861dcfe19cc140d",
     "installer": {
-        "script": [
-            "Expand-InnoArchive \"$dir\\Xreveal.exe\" -Removal"
-        ]
+        "script": "Expand-InnoArchive \"$dir\\Xreveal.exe\" -Removal"
     },
     "bin": "xreveal,2.exe",
     "shortcuts": [

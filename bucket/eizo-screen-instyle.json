@@ -6,9 +6,7 @@
     "url": "https://www.eizoglobal.com/support/db/files/software/software/lcd/ScreenInStyle/1.1.4_client/setup.exe",
     "hash": "5f2e758b96ea9e202a34cb55d5e0f74ed26eeec705c0b2c4437fc61875d04df1",
     "installer": {
-        "script": [
-            "Expand-InnoArchive \"$dir\\setup.exe\" -Removal"
-        ]
+        "script": "Expand-InnoArchive \"$dir\\setup.exe\" -Removal"
     },
     "bin": "ScreenInStyle.exe",
     "shortcuts": [

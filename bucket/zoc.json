@@ -14,9 +14,7 @@
         }
     },
     "installer": {
-        "script": [
-            "Expand-7zipArchive \"$dir\\setup.fil\" -Removal"
-        ]
+        "script": "Expand-7zipArchive \"$dir\\setup.fil\" -Removal"
     },
     "bin": "zoc.exe",
     "shortcuts": [
