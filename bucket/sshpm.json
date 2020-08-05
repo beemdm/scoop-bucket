@@ -1,7 +1,7 @@
 {
     "version": "0.2.0",
     "description": "The SSH profile manager.",
-    "homepage": "https://thelastzombie.github.io/sshpm/",
+    "homepage": "https://git.io/sshpm",
     "license": "MIT",
     "architecture": {
         "64bit": {
