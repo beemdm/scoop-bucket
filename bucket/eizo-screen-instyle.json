@@ -1,10 +1,10 @@
 {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "Easily manage power, colour, brightness, and other settings in a single or multi-monitor setup.",
     "homepage": "https://www.eizo.ee/accessories/software/screen-instyle/",
     "license": "Proprietary",
-    "url": "https://www.eizoglobal.com/support/db/files/software/software/lcd/ScreenInStyle/1.1.4_client/setup.exe",
-    "hash": "5f2e758b96ea9e202a34cb55d5e0f74ed26eeec705c0b2c4437fc61875d04df1",
+    "url": "https://www.eizoglobal.com/support/db/files/software/software/lcd/ScreenInStyle/1.1.5_client/setup.exe",
+    "hash": "0ba38839115f7957ea1dc4d2bb09cf110fa2e660727fd05803e289988b71393c",
     "installer": {
         "script": "Expand-InnoArchive \"$dir\\setup.exe\" -Removal"
     },
@@ -16,7 +16,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.eizoglobal.com/support/db/products/download/780",
+        "url": "https://www.eizoglobal.com/support/db/products/download/764",
         "regex": "<td.*>([\\d.]+)</td>"
     },
     "autoupdate": {
