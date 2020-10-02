@@ -4,7 +4,7 @@
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
     "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-4.3.1-2020-09-21-full_build.zip",
-    "hash": "6f416cc8083c57b9d40c533ec9f235b114f9169772e265a70a680634a75575ab",
+    "hash": "f2e43fdebd03c6a24b770c80b3df69b4b7abfb88fd7ab80e26b5347123d99eff",
     "extract_dir": "ffmpeg-4.3.1-full_build",
     "bin": [
         "bin\\ffmpeg.exe",
