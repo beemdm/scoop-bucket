@@ -3,8 +3,8 @@
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-4.3.1-2020-10-01-essentials_build.zip",
-    "hash": "2dcbec46668d4279282f8f7003b896ac7dd4eba2cbb776a2b31be06e4592ff94",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-4.3.1-2020-10-01-essentials_build.7z",
+    "hash": "f2a2b87d8a6f715666941dbd4404a4f0523e3389bff5e0ab3f73821010c0ee0d",
     "extract_dir": "ffmpeg-4.3.1-essentials_build",
     "bin": [
         "bin\\ffmpeg.exe",
@@ -17,7 +17,7 @@
         "reverse": true
     },
     "autoupdate": {
-        "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-essentials_build.zip",
+        "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-essentials_build.7z",
         "hash": "$url.sha256",
         "extract_dir": "ffmpeg-$matchHead-essentials_build"
     }
