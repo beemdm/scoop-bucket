@@ -1,0 +1,35 @@
+{
+    "version": "1.8.1",
+    "description": "A new mail system tray notification icon for Thunderbird.",
+    "homepage": "https://github.com/gyunaev/birdtray",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gyunaev/birdtray/releases/download/1.8.1/Birdtray-1.8.1-Win-x64.exe#/dl.7z",
+            "hash": "d4c86a3881b701a0849c10b95a60a27e58469da0e83e6aa326ac16235dbf5062"
+        },
+        "32bit": {
+            "url": "https://github.com/gyunaev/birdtray/releases/download/1.8.1/Birdtray-1.8.1-Win-x86.exe#/dl.7z",
+            "hash": "6c8b462cdb077ae3c8ab8e3901454b680a651a6f3c14d2dfb84d48c894026abe"
+        }
+    },
+    "bin": "birdtray.exe",
+    "shortcuts": [
+        [
+            "birdtray.exe",
+            "Birdtray"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gyunaev/birdtray/releases/download/$version/Birdtray-$version-Win-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/gyunaev/birdtray/releases/download/$version/Birdtray-$version-Win-x86.exe#/dl.7z"
+            }
+        },
+        "hash": "$url.sha256"
+    }
+}
