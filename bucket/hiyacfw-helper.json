@@ -1,10 +1,10 @@
 {
-    "version": "3.6.2",
+    "version": "3.6.3",
     "description": "Tool for making the HiyaCFW (and TWiLightMenu++) installation process simpler.",
     "homepage": "https://github.com/mondul/HiyaCFW-Helper",
     "license": "Unlicense",
-    "url": "https://github.com/mondul/HiyaCFW-Helper/releases/download/v3.6.2/HiyaCFW-Helper-v3.6.2-Win.zip",
-    "hash": "af0515581690e98e5ae6a0ee70f1c92f6a6c97319e7fe8dc0ccf8f34e0b39e38",
+    "url": "https://github.com/mondul/HiyaCFW-Helper/releases/download/v3.6.3/HiyaCFW-Helper-v3.6.3-Win.zip",
+    "hash": "ee713da2726767dc96b10d0c14c3055ed73d9332d349b5b223c75683e1f6a29e",
     "bin": "HiyaCFW-Helper.exe",
     "shortcuts": [
         [
