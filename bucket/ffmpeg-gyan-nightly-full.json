@@ -1,11 +1,11 @@
 {
-    "version": "2020-10-17-git-62073cfa97",
+    "version": "2020-10-21-git-289e964873",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2020-10-17-git-62073cfa97-full_build.7z",
-    "hash": "774cd1991aa543cf16cf0b6d2eb569f0ed3b06710032abb1fe2d1da1c13be885",
-    "extract_dir": "ffmpeg-2020-10-17-git-62073cfa97-full_build",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2020-10-21-git-289e964873-full_build.7z",
+    "hash": "cf05f351d4070b5c780df8c300b1a90b6aa4518119e42391f4ca3270ed174335",
+    "extract_dir": "ffmpeg-2020-10-21-git-289e964873-full_build",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
