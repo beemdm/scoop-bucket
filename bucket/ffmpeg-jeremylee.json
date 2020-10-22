@@ -8,7 +8,7 @@
     "bin": "ffmpeg.exe",
     "checkver": {
         "url": "https://jeremylee.sh/bin.html",
-        "regex": "\\| <span class=\"db\">(.*?)<\\/span>"
+        "regex": "</span><span class=\"db\">(.*?)<\\/span>"
     },
     "autoupdate": {
         "url": "https://jeremylee.sh/data/bin/ffmpeg.7z",
