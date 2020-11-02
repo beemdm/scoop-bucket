@@ -1,16 +1,16 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "The SSH profile manager.",
     "homepage": "https://git.io/sshpm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TheLastZombie/sshpm/releases/download/0.4.0/sshpm-v0.4.0-win32-x64.tar.gz",
-            "hash": "d179de0aeb4e1088cd649530aa795dbd541e805325389bbaf7d3f7d8c7e57e39"
+            "url": "https://github.com/TheLastZombie/sshpm/releases/download/0.5.0/sshpm-v0.5.0-win32-x64.tar.gz",
+            "hash": "84167cc55fa946df857051fcd6de0cbda5f3dd517d26a2b2c4f0635e3bf5277b"
         },
         "32bit": {
-            "url": "https://github.com/TheLastZombie/sshpm/releases/download/0.4.0/sshpm-v0.4.0-win32-x86.tar.gz",
-            "hash": "960f92c718b0e6fa645fa6e5dcccd4f635b36f769127b445885d8178f69d9ba3"
+            "url": "https://github.com/TheLastZombie/sshpm/releases/download/0.5.0/sshpm-v0.5.0-win32-x86.tar.gz",
+            "hash": "c0704229df2538bfc6fd956f1396e00df4051881b36fd3bfcc3ae16e2dfd05f8"
         }
     },
     "extract_dir": "sshpm",
