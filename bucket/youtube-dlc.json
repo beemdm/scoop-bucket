@@ -1,7 +1,7 @@
 {
-    "version": "2020.10.09",
+    "version": "2020.10.31",
     "description": "Download videos from YouTube.com (and a few more sites) using command line.",
-    "homepage": "https://blackjack4494.github.io/youtube-dlc/",
+    "homepage": "https://blackjack4494.github.io/yt-dlc/",
     "license": "Unlicense",
     "suggest": {
         "FFmpeg": [
@@ -12,25 +12,25 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/blackjack4494/youtube-dlc/releases/download/2020.10.09/youtube-dlc.exe",
-            "hash": "be1180f42d8e95ab79bf2716e755ed041cb60e42dc932cea03aa023759bf2d09"
+            "url": "https://github.com/blackjack4494/yt-dlc/releases/download/2020.10.31/youtube-dlc.exe",
+            "hash": "05f0b669d5d0febccdb63505963562242f69e6e648deef5bb5bc934da8471bf6"
         },
         "32bit": {
-            "url": "https://github.com/blackjack4494/youtube-dlc/releases/download/2020.10.09/youtube-dlc_x86.exe#/youtube-dlc.exe",
-            "hash": "5ec2090f236eb011885bc0584551dd7aa043d21727d3ac5cfe0cd8640bb978fd"
+            "url": "https://github.com/blackjack4494/yt-dlc/releases/download/2020.10.31/youtube-dlc_x86.exe#/youtube-dlc.exe",
+            "hash": "1c410255daf2554d740ff3485d53ef3d136eb28a3145c4171f46a0ac4f561074"
         }
     },
     "bin": "youtube-dlc.exe",
     "checkver": {
-        "github": "https://github.com/blackjack4494/youtube-dlc"
+        "github": "https://github.com/blackjack4494/yt-dlc"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/blackjack4494/youtube-dlc/releases/download/$version/youtube-dlc.exe"
+                "url": "https://github.com/blackjack4494/yt-dlc/releases/download/$version/youtube-dlc.exe"
             },
             "32bit": {
-                "url": "https://github.com/blackjack4494/youtube-dlc/releases/download/$version/youtube-dlc_x86.exe#/youtube-dlc.exe"
+                "url": "https://github.com/blackjack4494/yt-dlc/releases/download/$version/youtube-dlc_x86.exe#/youtube-dlc.exe"
             }
         },
         "hash": "$url.sha256"
