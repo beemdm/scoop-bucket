@@ -1,5 +1,5 @@
 {
-    "version": "2020.10.31",
+    "version": "2020.11.07",
     "description": "Download videos from YouTube.com (and a few more sites) using command line.",
     "homepage": "https://blackjack4494.github.io/yt-dlc/",
     "license": "Unlicense",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/blackjack4494/yt-dlc/releases/download/2020.10.31/youtube-dlc.exe",
-            "hash": "05f0b669d5d0febccdb63505963562242f69e6e648deef5bb5bc934da8471bf6"
+            "url": "https://github.com/blackjack4494/yt-dlc/releases/download/2020.11.07/youtube-dlc.exe",
+            "hash": "dda2dbf1cc16d835882e0744719c118f3522d88babae3e573e25eb8c91e90e4d"
         },
         "32bit": {
-            "url": "https://github.com/blackjack4494/yt-dlc/releases/download/2020.10.31/youtube-dlc_x86.exe#/youtube-dlc.exe",
-            "hash": "1c410255daf2554d740ff3485d53ef3d136eb28a3145c4171f46a0ac4f561074"
+            "url": "https://github.com/blackjack4494/yt-dlc/releases/download/2020.11.07/youtube-dlc_x86.exe#/youtube-dlc.exe",
+            "hash": "3c5eff970fcb979575a31c5e0ca6ecc0d52e3ebe5d13c7c0588e42f5ac11dc75"
         }
     },
     "bin": "youtube-dlc.exe",
