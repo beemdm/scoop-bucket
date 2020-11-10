@@ -1,10 +1,10 @@
 {
-    "version": "4.9.1",
+    "version": "4.9.2",
     "description": "An Electron-based unofficial desktop client for ProtonMail.",
     "homepage": "https://github.com/vladimiry/ElectronMail",
     "license": "MIT",
-    "url": "https://github.com/vladimiry/ElectronMail/releases/download/v4.9.1/electron-mail-4.9.1-windows-nsis-installer.exe#/dl.7z",
-    "hash": "a70380d9eb473e541f695074b250b99fc24ddf02d07884936f967fce5385aa06",
+    "url": "https://github.com/vladimiry/ElectronMail/releases/download/v4.9.2/electron-mail-4.9.2-windows-nsis-installer.exe#/dl.7z",
+    "hash": "0437da163b579f6118c16dae2d699870f48f9e6316f53fe58a357bd576927d74",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -Removal"
     },
