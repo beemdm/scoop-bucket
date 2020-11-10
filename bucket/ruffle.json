@@ -7,12 +7,6 @@
     "hash": "d392a0279b505baea6ad307ec4132c98d4e00d956d818d5d66b593b927aeb98b",
     "extract_dir": "release",
     "bin": "ruffle.exe",
-    "shortcuts": [
-        [
-            "ruffle.exe",
-            "Ruffle"
-        ]
-    ],
     "checkver": {
         "url": "https://github.com/ruffle-rs/ruffle/releases",
         "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">((\\w+)-(\\d+)-(\\d+)-(\\d+))</span>"
