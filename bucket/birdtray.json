@@ -3,6 +3,12 @@
     "description": "A new mail system tray notification icon for Thunderbird.",
     "homepage": "https://github.com/gyunaev/birdtray",
     "license": "GPL-3.0-or-later",
+    "suggest": {
+        "Thunderbird": [
+            "thunderbird",
+            "thunderbird-portable"
+        ]
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/gyunaev/birdtray/releases/latest/download/Birdtray-1.9.0-Win-x64.exe#/dl.7z",
