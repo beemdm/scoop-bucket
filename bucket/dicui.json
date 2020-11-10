@@ -1,10 +1,10 @@
 {
-    "version": "1.17.1",
+    "version": "1.18",
     "description": "A DiscImageCreator GUI in C#.",
     "homepage": "https://github.com/SabreTools/DICUI",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/SabreTools/DICUI/releases/download/1.17.1/DICUI_1.17.1-net48.zip",
-    "hash": "9f4ab30c5bb01323f8e6876f7a461345a520d12a121171b15701f9c0c54299af",
+    "url": "https://github.com/SabreTools/DICUI/releases/download/1.18/DICUI_1.18-net48.zip",
+    "hash": "32a103a9e79bed8ddecdd9cb12ef7cd831f41c25e9b66e3295cd63e1574f03ad",
     "bin": "DICUI.exe",
     "shortcuts": [
         [
