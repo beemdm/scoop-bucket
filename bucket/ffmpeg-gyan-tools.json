@@ -1,11 +1,11 @@
 {
-    "version": "2020-10-28-git-81d4b8fb3c",
+    "version": "2020-11-11-git-89429cf2f2",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-tools-2020-10-28-git-81d4b8fb3c.7z",
-    "hash": "1a207406acb75c7005a4c38668537a0008db6b515ed37d7373e7dcdbd0e37936",
-    "extract_dir": "ffmpeg-tools-2020-10-28-git-81d4b8fb3c",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-tools-2020-11-11-git-89429cf2f2.7z",
+    "hash": "8cd8be313100167645ac6d395cefc4871fe7806b4422f9493a5b4b6646970a32",
+    "extract_dir": "ffmpeg-tools-2020-11-11-git-89429cf2f2",
     "bin": [
         "bin\\aviocat.exe",
         "bin\\crypto_bench.exe",
