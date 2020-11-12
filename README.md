@@ -2,6 +2,8 @@
 
 Originally created so that I could finish my Windows 10 setup script, I now try to add any applications I come across that meet the [requirements](#requirements), just to make everyone's lives a little bit easier.
 
+![](screenshot.png)
+
 [Installation](#installation) · [Uninstallation](#uninstallation) · [Applications](#applications) · [Disclaimer](#disclaimer) · [Requirements](#requirements) · [Contributing](#contributing)
 
 ## Installation
