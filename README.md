@@ -59,3 +59,5 @@ If you want to contribute application manifests, please consider the following a
 
 - If we're talking about one or two applications only, submit them to a fitting [well-known bucket](https://github.com/lukesampson/scoop/blob/master/buckets.json) instead.
 - If we're talking about multiple applications, consider [creating your own bucket](https://github.com/lukesampson/scoop/wiki/Buckets#creating-your-own-bucket)! It's a lot of fun.
+
+If you still want to add a manifest to this bucket, I highly recommend you use [Visual Studio Code](https://code.visualstudio.com/) – it will automatically load the [settings file](https://github.com/TheLastZombie/scoop-bucket/blob/master/.vscode/settings.json) included in this repository which, in turn, will make the process easier for you.
