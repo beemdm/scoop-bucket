@@ -1,10 +1,10 @@
 {
-    "version": "1.0.5678",
+    "version": "1.0.5682",
     "description": "A simple, experimental Nintendo Switch emulator.",
     "homepage": "https://ryujinx.org/",
     "license": "MIT",
-    "url": "https://ci.appveyor.com/api/buildjobs/9agen2geecu39iw6/artifacts/ryujinx-1.0.5678-win_x64.zip",
-    "hash": "286e8cad0d5221af73d435eb4de986b11dc94e482231e1d176575a8bdeeb41c1",
+    "url": "https://ci.appveyor.com/api/buildjobs/4io7sql5q71m5gc8/artifacts/ryujinx-1.0.5682-win_x64.zip",
+    "hash": "90ecaa85cbb70f1f86dc42b7abdc4b14fd7b2f59d98a6a0a703c2fb5bcea98a8",
     "extract_dir": "publish",
     "bin": "Ryujinx.exe",
     "shortcuts": [
