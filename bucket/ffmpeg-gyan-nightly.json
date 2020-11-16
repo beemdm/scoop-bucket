@@ -17,7 +17,9 @@
     },
     "autoupdate": {
         "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-essentials_build.7z",
-        "hash": "$url.sha256",
+        "hash": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/sha256-git-essentials"
+        },
         "extract_dir": "ffmpeg-$version-essentials_build"
     }
 }

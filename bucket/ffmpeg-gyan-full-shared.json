@@ -17,7 +17,9 @@
     },
     "autoupdate": {
         "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-full_build-shared.7z",
-        "hash": "$url.sha256",
+        "hash": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/sha256-release-full-shared"
+        },
         "extract_dir": "ffmpeg-$version-full_build-shared"
     }
 }
