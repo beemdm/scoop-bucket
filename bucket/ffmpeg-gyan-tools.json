@@ -21,7 +21,6 @@
         "bin\\qt-faststart.exe",
         "bin\\seek_print.exe",
         "bin\\sidxindex.exe",
-        "bin\\trasher.exe",
         "bin\\venc_data_dump.exe",
         "bin\\zmqsend.exe"
     ],
