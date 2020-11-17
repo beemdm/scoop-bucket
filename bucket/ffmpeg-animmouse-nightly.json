@@ -1,10 +1,10 @@
 {
-    "version": "a#102",
+    "version": "a#103",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
-    "license": "GPL-3.0-or-later",
-    "url": "https://github.com/AnimMouse/ffmpeg-autobuild/releases/download/a%23102/ffmpeg-win64-gpl.7z",
-    "hash": "d3a518376c3a5ca088449f2aa3f9fd9de10cc1c34bb4b27aa06914595ddf202a",
+    "license": "LGPL-3.0-or-later",
+    "url": "https://github.com/AnimMouse/ffmpeg-autobuild/releases/download/a%23103/ffmpeg-win64-nonfree.7z",
+    "hash": "7a77861e156b45f0d35ec7d4c9bdea81fdf89286fe95b6183e58856b92279ede",
     "bin": [
         "ffmpeg.exe",
         "ffplay.exe",
@@ -15,7 +15,7 @@
         "regex": "<a href=\"\\/AnimMouse\\/ffmpeg-autobuild\\/tree\\/(?<htmlversion>.*?)\" class=\"muted-link css-truncate\" title=\"(?<version>.*?)\">"
     },
     "autoupdate": {
-        "url": "https://github.com/AnimMouse/ffmpeg-autobuild/releases/download/$matchHtmlversion/ffmpeg-win64-gpl.7z",
+        "url": "https://github.com/AnimMouse/ffmpeg-autobuild/releases/download/$matchHtmlversion/ffmpeg-win64-nonfree.7z",
         "hash": "$url.sha256"
     }
 }
