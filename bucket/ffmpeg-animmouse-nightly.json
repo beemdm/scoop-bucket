@@ -1,10 +1,10 @@
 {
-    "version": "a#107",
+    "version": "a#108",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "LGPL-3.0-or-later",
-    "url": "https://github.com/AnimMouse/ffmpeg-autobuild/releases/download/a%23107/ffmpeg-win64-nonfree.7z",
-    "hash": "7218b83038d56ccc35de69aa324d71408806ecf619b513cec69967860f08ea0c",
+    "url": "https://github.com/AnimMouse/ffmpeg-autobuild/releases/download/a%23108/ffmpeg-win64-nonfree.7z",
+    "hash": "7819a35225630901c265ac7793bb10c87e7d293518729ca5a80689ed443d8fbe",
     "bin": [
         "ffmpeg.exe",
         "ffplay.exe",
