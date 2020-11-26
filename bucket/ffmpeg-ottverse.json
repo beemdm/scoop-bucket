@@ -1,11 +1,11 @@
 {
-    "version": "20201119-3871326910",
+    "version": "20201125-3de3d2f5e2",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/ottverse/ffmpeg-builds/raw/master/ffmpeg-20201119-3871326910-win64-static.zip",
-    "hash": "dd41cbfca8f96c3e8ac92ec90f3ad1f026b41d506e8df6a9b3064a2ef494d628",
-    "extract_dir": "ffmpeg-20201119-3871326910-win64-static",
+    "url": "https://github.com/ottverse/ffmpeg-builds/raw/master/ffmpeg-20201125-3de3d2f5e2-win64-static.zip",
+    "hash": "9161d0291146ef0eb6a23f9a73d7c1d5f280dd9ac1063e772317a4463128bf66",
+    "extract_dir": "ffmpeg-20201125-3de3d2f5e2-win64-static",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
