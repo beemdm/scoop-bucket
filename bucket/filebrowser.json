@@ -1,0 +1,37 @@
+{
+    "version": "2.10.0",
+    "description": "Web File Browser which can be used as a middleware or standalone app.",
+    "homepage": "https://filebrowser.org/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-amd64-filebrowser.zip",
+            "hash": "85807923991e3536b5e0f51fb9b90184f119b1a7c88b4e06e55efd72f4b9efbf"
+        },
+        "32bit": {
+            "url": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-386-filebrowser.zip",
+            "hash": "70736c1956f02373d32c369dc355ab89672e517bc9a64c6265eddf6f513154e7"
+        }
+    },
+    "bin": "filebrowser.exe",
+    "shortcuts": [
+        [
+            "filebrowser.exe",
+            "File Browser"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/filebrowser/filebrowser"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/filebrowser/filebrowser/releases/download/v$version/windows-amd64-filebrowser.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/filebrowser/filebrowser/releases/download/v$version/windows-386-filebrowser.zip"
+            }
+        },
+        "hash": "$url.sha256"
+    }
+}
