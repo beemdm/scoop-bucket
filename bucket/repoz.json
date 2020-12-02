@@ -1,0 +1,20 @@
+{
+    "version": "5.4",
+    "description": "A zero-conf git repository hub for Windows and macOS.",
+    "homepage": "https://github.com/awaescher/RepoZ",
+    "license": "MIT",
+    "url": "https://github.com/awaescher/RepoZ/releases/download/v5.4/RepoZ.5.4.Setup.exe#/dl.7z",
+    "hash": "18d12babd9bc148878e69d825423c9f06a5ad5a4c2f46006ac221df8b488e672",
+    "bin": "RepoZ.exe",
+    "shortcuts": [
+        [
+            "RepoZ.exe",
+            "RepoZ"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/awaescher/RepoZ/releases/download/v$version/RepoZ.$version.Setup.exe#/dl.7z",
+        "hash": "$url.sha256"
+    }
+}
