@@ -1,0 +1,20 @@
+{
+    "version": "1.6",
+    "description": "Center Windows taskbar icons.",
+    "homepage": "https://github.com/mdhiggins/CenterTaskbar",
+    "license": "MIT",
+    "url": "https://github.com/mdhiggins/CenterTaskbar/releases/download/1.6/CenterTaskbar.exe",
+    "hash": "50b2b6df647592b01fc4c278eba52f9ad4c6b05dc13b152ed414fdd83559e4ae",
+    "bin": "CenterTaskbar.exe",
+    "shortcuts": [
+        [
+            "CenterTaskbar.exe",
+            "CenterTaskbar"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/mdhiggins/CenterTaskbar/releases/download/$version/CenterTaskbar.exe",
+        "hash": "$url.sha256"
+    }
+}
