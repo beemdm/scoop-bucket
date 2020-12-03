@@ -1,0 +1,23 @@
+{
+    "version": "1.8.6",
+    "description": "A highly customizable open source online editor providing collaborative editing in really real-time.",
+    "homepage": "https://etherpad.org/",
+    "license": "Apache-2.0",
+    "url": "https://github.com/ether/etherpad-lite/releases/download/1.8.6/etherpad-lite-win-1.8.6-299bd962b6.zip",
+    "hash": "2fd74c7d4003d55b7190e4e1066e6c5859c778356f2cf5ade8671f215a6f1d05",
+    "shortcuts": [
+        [
+            "node.exe",
+            "Etherpad",
+            "node_modules\\ep_etherpad-lite\\node\\server.js"
+        ]
+    ],
+    "checkver": {
+        "url": "https://etherpad.org/",
+        "regex": "etherpad-lite-win-([\\d.]+)-(?<hash>[0-9a-f]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ether/etherpad-lite/releases/download/$version/etherpad-lite-win-$version-$matchHash.zip",
+        "hash": "$url.sha256"
+    }
+}
