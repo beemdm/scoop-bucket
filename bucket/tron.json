@@ -1,0 +1,24 @@
+{
+    "version": "11.1.4",
+    "description": "A glorified collection of batch files that automate the process of cleaning up Windows systems.",
+    "homepage": "https://old.reddit.com/r/TronScript/",
+    "license": "MIT",
+    "url": "https://bmrf.org/repos/tron/Tron%20v11.1.4%20(2020-11-02).exe#/dl.7z",
+    "hash": "36a4268a9aef4b3c99d4edf733186dd90d49f47e2f499d03a39c0762867aec53",
+    "extract_dir": "tron",
+    "bin": "tron.bat",
+    "shortcuts": [
+        [
+            "tron.bat",
+            "Tron"
+        ]
+    ],
+    "checkver": {
+        "url": "https://bmrf.org/repos/tron/",
+        "regex": "Tron v([\\d.]+) \\((?<date>[\\d-]+)\\)\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://bmrf.org/repos/tron/Tron%20v$version%20($matchDate).exe#/dl.7z",
+        "hash": "$url.sha256"
+    }
+}
