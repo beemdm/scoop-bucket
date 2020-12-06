@@ -1,10 +1,10 @@
 {
-    "version": "1.8.1.725",
+    "version": "1.8.2.739",
     "description": "Copy websites locally for offline browsing.",
     "homepage": "https://www.cyotek.com/cyotek-webcopy",
     "license": "Proprietary",
-    "url": "https://www.cyotek.com/downloads/get/setup-cyowcopy-1.8.1-build-725.exe#/setup-cyowcopy.exe",
-    "hash": "526cb8c35ddb7dde8ca49b4c1714c25e4b37a7ad7ffda21b5336c4c6e0efd354",
+    "url": "https://www.cyotek.com/downloads/get/setup-cyowcopy-1.8.2-build-739.exe#/setup-cyowcopy.exe",
+    "hash": "abf764ef9ea8dabb8ae780e8134b421523ac5a5875131b36d6e92c8922971a7b",
     "installer": {
         "script": "Expand-InnoArchive \"$dir\\setup-cyowcopy.exe\" -Removal"
     },
