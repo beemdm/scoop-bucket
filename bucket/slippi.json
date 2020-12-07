@@ -1,0 +1,26 @@
+{
+    "version": "2.2.3",
+    "description": "Experience the new netplay.",
+    "homepage": "https://slippi.gg/",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/project-slippi/Ishiiruka/releases/download/v2.2.3/FM-Slippi-2.2.3-Win.zip",
+    "hash": "27dc6fc70b03b3cbd82b1ad95851c45498e44d627da14cef3419090234c290ef",
+    "extract_dir": "FM-Slippi",
+    "bin": [
+        "Dolphin.exe",
+        "dolphin-slippi-tools.exe"
+    ],
+    "shortcuts": [
+        [
+            "Dolphin.exe",
+            "Dolphin"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/project-slippi/Ishiiruka"
+    },
+    "autoupdate": {
+        "url": "https://github.com/project-slippi/Ishiiruka/releases/download/v$version/FM-Slippi-$version-Win.zip",
+        "hash": "$url.sha256"
+    }
+}
