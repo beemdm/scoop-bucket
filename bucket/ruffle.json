@@ -5,8 +5,13 @@
     "license": "Apache-2.0|MIT",
     "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2020-12-09/ruffle_nightly_2020_12_09_windows.zip",
     "hash": "8ba09663fa068023ea19190d7741dbcb4157e7771c6ef9b4d6e1bdce969787f5",
-    "extract_dir": "release",
     "bin": "ruffle.exe",
+    "shortcuts": [
+        [
+            "ruffle.exe",
+            "Ruffle"
+        ]
+    ],
     "checkver": {
         "url": "https://github.com/ruffle-rs/ruffle/releases",
         "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">((\\w+)-(\\d+)-(\\d+)-(\\d+))</span>"
