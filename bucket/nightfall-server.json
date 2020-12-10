@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "description": "An (online) system updater for Nintendo Switch made with borealis.",
+    "homepage": "https://github.com/D3fau4/NightFall-Server",
+    "license": "Proprietary",
+    "url": "https://github.com/D3fau4/NightFall-Server/releases/download/1.0/win-x86.7z",
+    "hash": "21d9ef805b1132a8c5ca54a9dab259da965d9b83a9c9e5b62ef9494c64050e6f",
+    "extract_dir": "win-x86",
+    "bin": "NightFall Server.exe",
+    "shortcuts": [
+        [
+            "NightFall Server.exe",
+            "NightFall Server"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/D3fau4/NightFall-Server/releases/download/$version/win-x86.7z",
+        "hash": "$url.sha256"
+    }
+}
