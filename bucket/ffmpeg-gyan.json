@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-4.3.1-2020-11-19-essentials_build.7z",
     "hash": "dd25cdca1ef7a455a1348985bb7a485772d97c39e14afa43b7898b89f3359e3a",
-    "extract_dir": "ffmpeg-4.3.1-essentials_build",
+    "extract_dir": "ffmpeg-4.3.1-2020-11-19-essentials_build",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
@@ -20,6 +20,6 @@
         "hash": {
             "url": "https://www.gyan.dev/ffmpeg/builds/sha256-release-essentials-7z"
         },
-        "extract_dir": "ffmpeg-$matchHead-essentials_build"
+        "extract_dir": "ffmpeg-$version-essentials_build"
     }
 }

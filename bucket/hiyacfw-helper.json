@@ -5,10 +5,10 @@
     "license": "Unlicense",
     "url": "https://github.com/mondul/HiyaCFW-Helper/releases/download/v3.6.3/HiyaCFW-Helper-Win.zip",
     "hash": "ee713da2726767dc96b10d0c14c3055ed73d9332d349b5b223c75683e1f6a29e",
-    "bin": "HiyaCFW-Helper.exe",
+    "bin": "HiyaCFW_Helper.exe",
     "shortcuts": [
         [
-            "HiyaCFW-Helper.exe",
+            "HiyaCFW_Helper.exe",
             "HiyaCFW Helper"
         ]
     ],

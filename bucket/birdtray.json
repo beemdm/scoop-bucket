@@ -5,8 +5,8 @@
     "license": "GPL-3.0-or-later",
     "suggest": {
         "Thunderbird": [
-            "thunderbird",
-            "thunderbird-portable"
+            "extras/thunderbird",
+            "extras/thunderbird-portable"
         ]
     },
     "architecture": {
