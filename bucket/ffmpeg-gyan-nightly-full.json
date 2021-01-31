@@ -1,11 +1,11 @@
 {
-    "version": "2021-01-27-git-149bfc2445",
+    "version": "2021-01-31-git-6c92557756",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2021-01-27-git-149bfc2445-full_build.7z",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2021-01-31-git-6c92557756-full_build.7z",
     "hash": "cc05fedd6175432cf03ac3de8e38595440e72525bc7e4429e0d0cda82af7522f",
-    "extract_dir": "ffmpeg-2021-01-27-git-149bfc2445-full_build",
+    "extract_dir": "ffmpeg-2021-01-31-git-6c92557756-full_build",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
