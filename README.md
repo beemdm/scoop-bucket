@@ -37,7 +37,7 @@ To view a list of all included applications, head over to the [Scoop directory](
 Please note that some applications might not be portable, i. e. they may:
 
 - create and use directories outside of their own (e. g. [ZOC Terminal](https://www.emtec.com/zoc/))
-- create and modify registry keys and values
+- create and modify registry keys and values (e. g. [sshpm](https://thelastzombie.github.io/sshpm/))
 - access your system in other ways (e. g. [Xreveal](https://yubsoft.com/xreveal/))
 
 It should also be noted that currently, some applications (e. g. [Bandcamp Downloader](https://github.com/Otiel/BandcampDownloader)) don't persist their files correctly.
