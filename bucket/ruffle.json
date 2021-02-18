@@ -1,10 +1,10 @@
 {
-    "version": "nightly-2021-02-16",
+    "version": "nightly-2021-02-18",
     "description": "A Flash Player emulator built in the Rust programming language.",
     "homepage": "https://ruffle.rs/",
     "license": "Apache-2.0|MIT",
-    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-02-16/ruffle_nightly_2021_02_16_windows.zip",
-    "hash": "3a55148a6012f3049d18ab641578c3146a34dfcd1ebcd68127ca27d04e557469",
+    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-02-18/ruffle_nightly_2021_02_18_windows.zip",
+    "hash": "f7af6a06e16dd5731757c3ef5af6e7b7b43d80365526a752d1a0ebeafebda999",
     "bin": "ruffle.exe",
     "shortcuts": [
         [
