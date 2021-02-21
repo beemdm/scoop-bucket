@@ -1,10 +1,10 @@
 {
-    "version": "1.13.1",
+    "version": "1.14.0",
     "description": "The JavaScript playground for your desktop.",
     "homepage": "https://runjs.dev/",
     "license": "Proprietary",
-    "url": "https://github.com/lukehaas/RunJS/releases/download/v1.13.1/RunJS-Setup-1.13.1.exe#/dl.7z",
-    "hash": "27cd6959d967f922af1531d2c779287b9d1e38191b7bd78dcaebfca7d29e6206",
+    "url": "https://github.com/lukehaas/RunJS/releases/download/v1.14.0/RunJS-Setup-1.14.0.exe#/dl.7z",
+    "hash": "6c9ad32268578aba976b3fd7d4a939ad06be827d640e8b94eefd0dc93cb04d0b",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -Removal"
     },
