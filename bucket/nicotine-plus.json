@@ -1,16 +1,16 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "A graphical client for the SoulSeek peer-to-peer system.",
     "homepage": "https://nicotine-plus.github.io/nicotine-plus/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nicotine-Plus/nicotine-plus/releases/download/3.0.0/windows-x86_64-package.zip",
-            "hash": "9e3d2a8b29f40eeec6d8886834aa072d6ac3899fd16588bd9c6ab4d4c59cadd6"
+            "url": "https://github.com/Nicotine-Plus/nicotine-plus/releases/download/3.0.1/windows-x86_64-package.zip",
+            "hash": "21ebf0a899696392d3925c54ff220697727b0851aa3daaea564e50eeb5cd0505"
         },
         "32bit": {
-            "url": "https://github.com/Nicotine-Plus/nicotine-plus/releases/download/3.0.0/windows-i686-package.zip",
-            "hash": "efaaa81993b8e2fb38d03af2bea6d7c399715134f35a298bf48c265086ab26f6"
+            "url": "https://github.com/Nicotine-Plus/nicotine-plus/releases/download/3.0.1/windows-i686-package.zip",
+            "hash": "8aa3c6b408ba621ca1e72feab1f2d20690424f1a4067721928c9b35a28d0aaaa"
         }
     },
     "extract_dir": "Nicotine+",
