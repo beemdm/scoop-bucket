@@ -1,11 +1,11 @@
 {
-    "version": "4.3.2-2021-02-20",
+    "version": "4.3.2-2021-02-27",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-4.3.2-2021-02-20-full_build.7z",
-    "hash": "ee40ae22601613a1b28574a09aa0371e9616e00d85416a783140e3c7c24ddb59",
-    "extract_dir": "ffmpeg-4.3.2-2021-02-20-full_build",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-4.3.2-2021-02-27-full_build.7z",
+    "hash": "fc7f82a9fe87ef2c58634fd9e2f9c8eb42bc4a02ea7baad45f7113b468a7b08d",
+    "extract_dir": "ffmpeg-4.3.2-2021-02-27-full_build",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
