@@ -1,16 +1,16 @@
 {
-    "version": "8.02.1",
+    "version": "8.02.2",
     "description": "SSH client and terminal emulator for Windows and macOS.",
     "homepage": "https://www.emtec.com/zoc/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.emtec.com/downloads/zoc/zoc8021_x64.exe#/dl.7z",
-            "hash": "29e4bec84dbbe8b9287fef1b25f9ec761e69d155acad6623d20b9688c1966770"
+            "url": "https://www.emtec.com/downloads/zoc/zoc8022_x64.exe#/dl.7z",
+            "hash": "0f554adc8f2fe55ce35a110355df04e9bc88265375cbd4308c7bc130e1762f37"
         },
         "32bit": {
-            "url": "https://www.emtec.com/downloads/zoc/zoc8021.exe#/dl.7z",
-            "hash": "abb053d6c09d3b69ec742a0b22e41e985a2319397865d1a9e0086353bc525b7e"
+            "url": "https://www.emtec.com/downloads/zoc/zoc8022.exe#/dl.7z",
+            "hash": "6b600807dba81eeba0226711f714b19fd7371b1535baed8600da1362dc325344"
         }
     },
     "installer": {
