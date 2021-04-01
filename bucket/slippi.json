@@ -1,10 +1,10 @@
 {
-    "version": "2.2.5",
+    "version": "2.2.6",
     "description": "Experience the new netplay.",
     "homepage": "https://slippi.gg/",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/project-slippi/Ishiiruka/releases/download/v2.2.5/FM-Slippi-2.2.5-Win.zip",
-    "hash": "b8a2e7d1df88ade282ab20a3d824603bc81baacb32b8884f835f6d069add20ef",
+    "url": "https://github.com/project-slippi/Ishiiruka/releases/download/v2.2.6/FM-Slippi-2.2.6-Win.zip",
+    "hash": "022e7c96153ea893bfdb7f2fed4b0e872abd38d6f3e4d69d898bdb1247abf189",
     "extract_dir": "FM-Slippi",
     "bin": [
         "Dolphin.exe",
