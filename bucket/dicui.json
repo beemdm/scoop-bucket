@@ -1,21 +1,20 @@
 {
-    "version": "1.18",
+    "version": "2.0",
     "description": "A DiscImageCreator GUI in C#.",
-    "homepage": "https://github.com/SabreTools/DICUI",
+    "homepage": "https://github.com/SabreTools/MPF",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/SabreTools/DICUI/releases/download/1.18/DICUI_1.18-net48.zip",
-    "hash": "32a103a9e79bed8ddecdd9cb12ef7cd831f41c25e9b66e3295cd63e1574f03ad",
-    "extract_dir": "net48",
-    "bin": "DICUI.exe",
+    "url": "https://github.com/SabreTools/MPF/releases/download/2.0/MPF_2.0-net48.zip",
+    "hash": "60daa2fc23aceb0d3d0a377ebc9ffba99c46906d31dcf02aafa036c438fbfcdc",
+    "bin": "MPF.exe",
     "shortcuts": [
         [
-            "DICUI.exe",
-            "DICUI"
+            "MPF.exe",
+            "Media Preservation Frontend"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/SabreTools/DICUI/releases/download/$version/DICUI_$version-net48.zip",
+        "url": "https://github.com/SabreTools/MPF/releases/download/$version/MPF_$version-net48.zip",
         "hash": "$url.sha256"
     }
 }
