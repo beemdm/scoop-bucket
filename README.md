@@ -1,4 +1,4 @@
-# 🧟 tlz's [Scoop](https://scoop.sh/) bucket 🪣
+# 🧟 tlz's [Scoop](https://scoop.sh/) bucket [![Excavator](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml/badge.svg)](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml) 🪣
 
 Originally created so that I could finish my Windows 10 setup script, I now try to add any applications I come across that meet the [requirements](#requirements), just to make everyone's lives a little bit easier.
 
