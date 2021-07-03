@@ -1,10 +1,10 @@
 {
-    "version": "d6bf3678f48111d331b7615b198fab5d513fbd54",
+    "version": "312423e2a4c3b1ed19bb1506dc53f621e671b705",
     "description": "A Deezer downloader built from the ashes of Deezloader Remix.",
     "homepage": "https://deemix.app/",
     "license": "GPL-3.0-or-later",
     "url": "https://download.deemix.app/gui/win-amd64-latest.exe",
-    "hash": "f96afee6c7a1784a615ffaeffc703335c65f2cf917f49286dcf16a1e4eead320",
+    "hash": "b8f43887e8e4ccb5856f010803c67ce1f6a4c9b7f10ac4fd84677b477ff0c093",
     "bin": "win-amd64-latest.exe",
     "shortcuts": [
         [
