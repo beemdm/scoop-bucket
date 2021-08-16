@@ -1,10 +1,10 @@
 {
-    "version": "1.4.5",
+    "version": "1.4.6",
     "description": "Neo-Tastaturlayouts für Windows.",
     "homepage": "https://neo-layout.org/",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/Rojetto/ReNeo/releases/download/v1.4.5/ReNeo_Bone.zip",
-    "hash": "2ac52765544da0d345b3b1f1fde1f4982dde97d6cc9218e802fc86fbe4831f6d",
+    "url": "https://github.com/Rojetto/ReNeo/releases/download/v1.4.6/ReNeo_Bone.zip",
+    "hash": "45662d037ff1e1574ea896dbd28320035dd706ea5b04c2a46082f856c7347813",
     "bin": "reneo.exe",
     "shortcuts": [
         [
