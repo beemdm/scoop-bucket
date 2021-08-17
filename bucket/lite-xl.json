@@ -14,10 +14,10 @@
         }
     },
     "extract_dir": "lite-xl",
-    "bin": "lite.exe",
+    "bin": "lite-xl.exe",
     "shortcuts": [
         [
-            "lite.exe",
+            "lite-xl.exe",
             "Lite XL"
         ]
     ],
