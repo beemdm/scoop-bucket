@@ -1,10 +1,10 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Experience the new netplay.",
     "homepage": "https://slippi.gg/",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/project-slippi/slippi-desktop-app/releases/download/v2.1.0/Slippi-Launcher-Setup-2.1.0.exe#/dl.7z",
-    "hash": "6dee4d54271922a4d317d3e211391d7ae909497ede1c842468c9c7a479d74a4b",
+    "url": "https://github.com/project-slippi/slippi-desktop-app/releases/download/v2.1.1/Slippi-Launcher-Setup-2.1.1.exe#/dl.7z",
+    "hash": "2cd2d88e4fa6eea9d2b92e5aa99d1f00cca06f7fce695687e946be5ae961007c",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -Removal"
     },
