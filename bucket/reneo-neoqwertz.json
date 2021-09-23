@@ -1,10 +1,10 @@
 {
-    "version": "1.5.1",
+    "version": "1.5.2",
     "description": "Neo-Tastaturlayouts für Windows.",
     "homepage": "https://neo-layout.org/",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/Rojetto/ReNeo/releases/download/v1.5.1/ReNeo_NeoQwertz.zip",
-    "hash": "d4f60b7e08cd193511eaf80f732e247d22f2ec0a8241899648931a913da090b1",
+    "url": "https://github.com/Rojetto/ReNeo/releases/download/v1.5.2/ReNeo_NeoQwertz.zip",
+    "hash": "50c7c93d461d8b2e7a2e328d1e266f5069ae1e2cbc78be7167da14118b998919",
     "bin": "reneo.exe",
     "shortcuts": [
         [
