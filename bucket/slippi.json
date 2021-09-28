@@ -5,15 +5,14 @@
     "license": "GPL-2.0-or-later",
     "url": "https://github.com/project-slippi/Ishiiruka/releases/download/v2.3.2/FM-Slippi-2.3.2-Win.zip",
     "hash": "a6ce40ab417d587bfdf231439b699aa51d24a99d5fbc901f67e9f12b92fadf51",
-    "extract_dir": "FM-Slippi",
     "bin": [
-        "Dolphin.exe",
+        "Slippi Dolphin.exe",
         "dolphin-slippi-tools.exe"
     ],
     "shortcuts": [
         [
-            "Dolphin.exe",
-            "Dolphin"
+            "Slippi Dolphin.exe",
+            "Slippi Dolphin"
         ]
     ],
     "checkver": {

@@ -1,16 +1,16 @@
 {
-    "version": "8.02.7",
+    "version": "8.03.0",
     "description": "SSH client and terminal emulator for Windows and macOS.",
     "homepage": "https://www.emtec.com/zoc/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.emtec.com/downloads/zoc/zoc8027_x64.exe#/dl.7z",
-            "hash": "43f758b1690fb1b74c01a14dd6e8c3a9c50c9749a07d198859d872715e8c4f9b"
+            "url": "https://www.emtec.com/downloads/zoc/zoc8030_x64.exe#/dl.7z",
+            "hash": "af28835b842e2a139f17f5f2bed719063407da9d73733403bde638e8d6892b9d"
         },
         "32bit": {
-            "url": "https://www.emtec.com/downloads/zoc/zoc8027.exe#/dl.7z",
-            "hash": "5373d383d538e585f7e43559b696d05ff824badc80720161cabd5d71c59905f1"
+            "url": "https://www.emtec.com/downloads/zoc/zoc8030.exe#/dl.7z",
+            "hash": "a0759ea4057f6c68364cedcd2bba0b7146a8f61cc41ee77392b1008f4f7b4054"
         }
     },
     "installer": {
@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "url": "https://www.emtec.com/downloads/zoc/zoc_changes.txt",
-        "regex": "\\* VERSION ([\\d.]+) \\([\\d-]+\\)"
+        "regex": "\\* VERSION ([\\d.]+) \\([\\dx-]+\\)"
     },
     "autoupdate": {
         "architecture": {

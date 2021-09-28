@@ -1,16 +1,16 @@
 {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "A lightweight text editor written in Lua.",
     "homepage": "https://lite-xl.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.0.1/lite-xl-win-x86-64.zip",
-            "hash": "33a5c5fd2a03ab2db797e552c9c8d7457c3e012c0e53f90de199bc3ff07446e4"
+            "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.0.2/lite-xl-windows-x86_64.zip",
+            "hash": "bd59bbc9b136d39bb086a1ebdee80ed885ce851cd69ad9f1f62c0a4937a41fab"
         },
         "32bit": {
-            "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.0.1/lite-xl-win-x86.zip",
-            "hash": "bf00e7bf768bdab8f049d3e88009eb76f08e598ac1cdc6ce7dde260267e514fe"
+            "url": "https://github.com/lite-xl/lite-xl/releases/download/v2.0.2/lite-xl-windows-x86.zip",
+            "hash": "6a82efe162f100dee4cdb25c1886bd1612006167d46bb106d6c15cb4ce873a73"
         }
     },
     "extract_dir": "lite-xl",
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lite-xl/lite-xl/releases/download/v$version/lite-xl-win-x86-64.zip"
+                "url": "https://github.com/lite-xl/lite-xl/releases/download/v$version/lite-xl-windows-x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/lite-xl/lite-xl/releases/download/v$version/lite-xl-win-x86.zip"
+                "url": "https://github.com/lite-xl/lite-xl/releases/download/v$version/lite-xl-windows-x86.zip"
             }
         },
         "hash": "$url.sha256"

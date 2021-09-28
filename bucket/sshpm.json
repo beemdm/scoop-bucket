@@ -1,22 +1,23 @@
 {
-    "version": "0.6.0",
+    "version": "1.0.0-rc.1",
     "description": "The SSH profile manager.",
     "homepage": "https://git.io/sshpm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TheLastZombie/sshpm/releases/download/0.6.0/sshpm-v0.6.0-win32-x64.tar.gz",
-            "hash": "d42575b83b903d818ef9bd0ddecb1d43c120c60ae564d35ba3ba7a707f0c9f33"
+            "url": "https://github.com/TheLastZombie/sshpm/releases/download/1.0.0-rc.1/sshpm-v1.0.0-rc.1-win32-x64.tar.gz",
+            "hash": "11452a46252f46493209c31b8c3e6d8b53967af693b0c0c8e48db75f1be13f8b"
         },
         "32bit": {
-            "url": "https://github.com/TheLastZombie/sshpm/releases/download/0.6.0/sshpm-v0.6.0-win32-x86.tar.gz",
-            "hash": "176f81ce3bf06acd7c78aafd07a46a6757c0f4737402ae14768a9a611800699a"
+            "url": "https://github.com/TheLastZombie/sshpm/releases/download/1.0.0-rc.1/sshpm-v1.0.0-rc.1-win32-x86.tar.gz",
+            "hash": "7ec0af4a0dad373793fa5d62f00886482f7045877dca65a61f7d5aa78c6b319d"
         }
     },
     "extract_dir": "sshpm",
     "bin": "bin/sshpm.cmd",
     "checkver": {
-        "github": "https://github.com/TheLastZombie/sshpm"
+        "url": "https://github.com/TheLastZombie/sshpm/releases",
+        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">(.+?)</span>"
     },
     "autoupdate": {
         "architecture": {

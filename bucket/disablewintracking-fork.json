@@ -1,10 +1,10 @@
 {
-    "version": "3.2.5",
+    "version": "3.2.6",
     "description": "Uses some known methods that attempt to minimize tracking in Windows 10.",
     "homepage": "https://github.com/bitlog2/DisableWinTracking",
     "license": "LGPL-3.0-or-later",
-    "url": "https://github.com/bitlog2/DisableWinTracking/releases/download/3.2.5/dwt-3.2.5-cp39-win_x86.zip",
-    "hash": "2aa3d5222c1c967d3aba316bf9d8cab3c003f344b881fc18f3fd10a4af8db114",
+    "url": "https://github.com/bitlog2/DisableWinTracking/releases/download/v3.2.6/dwt-3.2.6-cp39-win_x86.zip",
+    "hash": "3cd9e28eb171b803758e0dbb19bb897e49bc87286beae463e6e2706dcf436ffd",
     "bin": "DisableWinTracking.exe",
     "shortcuts": [
         [
@@ -14,7 +14,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/bitlog2/DisableWinTracking/releases/download/$version/dwt-$version-cp39-win_x86.zip",
+        "url": "https://github.com/bitlog2/DisableWinTracking/releases/download/v$version/dwt-$version-cp39-win_x86.zip",
         "hash": "$url.sha256"
     }
 }

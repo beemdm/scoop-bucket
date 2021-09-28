@@ -5,6 +5,7 @@
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/SabreTools/MPF/releases/download/2.1/MPF_2.1-net48.zip",
     "hash": "e0abab79a58a9498ff1e9ec8c1ed5a09a8452227ddf57c2ccf123564fd202843",
+    "extract_dir": "net48",
     "bin": "MPF.exe",
     "shortcuts": [
         [

@@ -5,6 +5,7 @@
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/Rojetto/ReNeo/releases/download/v1.5.3/ReNeo_NeoQwertz.zip",
     "hash": "2c105c2df1a14c27098ad22c3b7dd73bc51158e471b0623808259609f0518d41",
+    "extract_dir": "ReNeo",
     "bin": "reneo.exe",
     "shortcuts": [
         [

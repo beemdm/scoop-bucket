@@ -5,6 +5,7 @@
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/Rojetto/ReNeo/releases/download/v1.5.3/ReNeo_Bone.zip",
     "hash": "57fa138f40de72dab54817f0dc03588b9e65252a93e71b6602a404e99e5df6ec",
+    "extract_dir": "ReNeo",
     "bin": "reneo.exe",
     "shortcuts": [
         [
