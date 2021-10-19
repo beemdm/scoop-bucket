@@ -1,0 +1,23 @@
+{
+    "version": "3.10",
+    "description": "A multi-platform web browser for RISC OS, UNIX-like platforms (including Linux), Mac OS X, and more.",
+    "homepage": "https://www.netsurf-browser.org/",
+    "license": "MIT",
+    "url": "http://download.netsurf-browser.org/netsurf/releases/pre-built/windows/3.10-netsurf.exe#/dl.7z",
+    "hash": "2aa12eb57198aff9a216e764b9c8b7956ca98cd6f5544a491d228849094dae6d",
+    "bin": "NetSurf.exe",
+    "shortcuts": [
+        [
+            "NetSurf.exe",
+            "NetSurf"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.netsurf-browser.org/downloads/windows/",
+        "regex": "<span>NetSurf ([\\d.]+) for Windows<\\/span>"
+    },
+    "autoupdate": {
+        "url": "http://download.netsurf-browser.org/netsurf/releases/pre-built/windows/$version-netsurf.exe#/dl.7z",
+        "hash": "$url.sha256"
+    }
+}
