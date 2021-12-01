@@ -1,14 +1,14 @@
 {
-    "version": "N-103818-g48fc9376ab-g970264a74f+5",
+    "version": "N-104598-g8f476d5cf1-gb2aec70bd6+5",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
     "url": "https://jeremylee.sh/data/bin/ffmpeg.7z",
-    "hash": "87501d00ed6a80b611f8cf1ed6112434ab7184a70c13e1e024cc68883b2ec660",
+    "hash": "f108018b9a9ad38a75ac9874a7be764ee3e91f935b483cb8af89faf87753b083",
     "bin": "ffmpeg.exe",
     "checkver": {
         "url": "https://jeremylee.sh/bin.html",
-        "regex": "</span><span class=\"db\">(.*?)<\\/span>"
+        "regex": "</span><span class=\"color_b\">(.*?)<\\/span>"
     },
     "autoupdate": {
         "url": "https://jeremylee.sh/data/bin/ffmpeg.7z",
