@@ -4,7 +4,7 @@
     "homepage": "https://deemix.app/",
     "license": "GPL-3.0-or-later",
     "url": "https://download.deemix.app/gui/win-amd64-latest.exe",
-    "hash": "f09c8b77cf71b1057b9384c50974873d199bc71f663c0817ffe878327900179e",
+    "hash": "9bb2590d0277bf1e8d35449705266578cba0613c200f6b6d75ba3ffccc44ba02",
     "bin": "win-amd64-latest.exe",
     "shortcuts": [
         [

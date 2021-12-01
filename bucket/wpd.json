@@ -1,5 +1,5 @@
 {
-    "version": "1.5.2042 RC 1",
+    "version": "1.5.2042",
     "description": "The real privacy dashboard for Windows.",
     "homepage": "https://wpd.app/",
     "license": "Proprietary",
@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "regex": "<span id=\"version\">(.+?)</span>"
+        "regex": "<span id=\"version\">([^\\s]+).*</span>"
     },
     "autoupdate": {
         "url": "https://wpd.app/get/latest.zip",
