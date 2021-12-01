@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://github.com/Bios-Marcel/cordless/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">((\\d+)-(\\d+)-(\\d+))</span>"
+        "regex": "<a href=\".+/tree/((\\d+)-(\\d+)-(\\d+))\" data-view-component=\"true\""
     },
     "autoupdate": {
         "architecture": {

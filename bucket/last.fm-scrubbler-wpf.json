@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://github.com/SHOEGAZEssb/Last.fm-Scrubbler-WPF/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">B([\\d.]+)</span>"
+        "regex": "<a href=\".+/tree/B([\\d.]+)\" data-view-component=\"true\""
     },
     "autoupdate": {
         "url": "https://github.com/SHOEGAZEssb/Last.fm-Scrubbler-WPF/releases/download/B$version/Last.fm-Scrubbler-WPF-Beta-$version.zip",

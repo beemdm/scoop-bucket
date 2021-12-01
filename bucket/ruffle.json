@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://github.com/ruffle-rs/ruffle/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">((\\w+)-(\\d+)-(\\d+)-(\\d+))</span>"
+        "regex": "<a href=\".+/tree/((\\w+)-(\\d+)-(\\d+)-(\\d+))\" data-view-component=\"true\""
     },
     "autoupdate": {
         "architecture": {

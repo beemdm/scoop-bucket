@@ -23,7 +23,7 @@
     "bin": "youtube-dlc.exe",
     "checkver": {
         "url": "https://github.com/blackjack4494/yt-dlc/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">([\\d.-]+)</span>"
+        "regex": "<a href=\".+/tree/([\\d.-]+)\" data-view-component=\"true\""
     },
     "autoupdate": {
         "architecture": {

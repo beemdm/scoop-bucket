@@ -17,7 +17,7 @@
     "bin": "bin/sshpm.cmd",
     "checkver": {
         "url": "https://github.com/TheLastZombie/sshpm/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">(.+?)</span>"
+        "regex": "<a href=\".+/tree/(.+?)\" data-view-component=\"true\""
     },
     "autoupdate": {
         "architecture": {

@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://github.com/FuryBaguette/SwitchLayoutEditor/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">(.+?)</span>"
+        "regex": "<a href=\".+/tree/(.+?)\" data-view-component=\"true\""
     },
     "autoupdate": {
         "url": "https://github.com/FuryBaguette/SwitchLayoutEditor/releases/download/$version/LayoutEditor.zip",
