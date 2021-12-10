@@ -1,17 +1,17 @@
 {
-    "version": "7.49",
+    "version": "7.47",
     "description": "Yet another unofficial (and ugly) cross-platform MEGA downloader/uploader/streaming suite.",
     "homepage": "https://github.com/tonikelope/megabasterd",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tonikelope/megabasterd/releases/download/v7.49/MegaBasterdWINDOWS_7.49_portable.zip",
-            "hash": "f09098ccd7c2f8c734cae3a631395389f668f59c51d349a52a2e9e58ce4be652",
+            "url": "https://github.com/tonikelope/megabasterd/releases/download/v7.47/MegaBasterdWINDOWS_7.47_portable.zip",
+            "hash": "b85e4d75c215f7d8bf875511a8ae86a3c9ac59103a2f38ba7f1c28afce672e57",
             "extract_dir": "MegaBasterdWINDOWS"
         },
         "32bit": {
-            "url": "https://github.com/tonikelope/megabasterd/releases/download/v7.49/MegaBasterdWINDOWS32_7.49_portable.zip",
-            "hash": "8d61d94d54805840a87f9bb4cf53438f71c8d234be25e9e395dfca081961bee7",
+            "url": "https://github.com/tonikelope/megabasterd/releases/download/v7.47/MegaBasterdWINDOWS32_7.47_portable.zip",
+            "hash": "da2db3e6702aeaab3a9ab6f42202c9819aea6a36323cd8412ac33ddde75592cf",
             "extract_dir": "MegaBasterdWINDOWS32"
         }
     },
