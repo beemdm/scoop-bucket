@@ -1,10 +1,10 @@
 {
-    "version": "6.6",
+    "version": "6.7",
     "description": "Lightning fast file search.",
     "homepage": "https://www.fileseek.ca/",
     "license": "Proprietary",
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/103/FileSeek-6.6.zip",
-    "hash": "e2c5114d0f523316cd3504a1b2a2f50a720f3bba37688382035f245304d2fd97",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/103/FileSeek-6.7.zip",
+    "hash": "2868be0ec14568c8025c8a4da916af08479f54c683b9d504bf171fd086e7eaa9",
     "extract_dir": "FileSeek",
     "bin": "FileSeek.exe",
     "shortcuts": [
