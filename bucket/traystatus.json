@@ -1,10 +1,10 @@
 {
-    "version": "4.5",
+    "version": "4.6",
     "description": "Caps lock, num lock, scroll lock, and more in your tray.",
     "homepage": "https://www.traystatus.com/",
     "license": "Proprietary",
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/114/TrayStatus-4.5.zip",
-    "hash": "69c4078ddc7d64223f368f2bc86477d6a8e74e7c9b133a5a5614e7a468334570",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/114/TrayStatus-4.6.zip",
+    "hash": "132485cd0deeac56762dfd08d14ff23219801b6682250ee3e1b3c691d159cb42",
     "extract_dir": "TrayStatus",
     "bin": "TrayStatus.exe",
     "shortcuts": [
