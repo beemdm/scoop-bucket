@@ -1,10 +1,10 @@
 {
-    "version": "5.9",
+    "version": "5.9.1",
     "description": "Supercharge your clipboard.",
     "homepage": "https://www.clipboardfusion.com/",
     "license": "Proprietary",
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/104/ClipboardFusion-5.9.zip",
-    "hash": "977541a90426e3bee2372f00ebcd7648a6829971e6c50d48f640c329d15cd716",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/104/ClipboardFusion-5.9.1.zip",
+    "hash": "ee9355c57522a65a90f9e90b95bf5d19ad36e669aa90c8943e6cbf9c1af0084d",
     "extract_dir": "ClipboardFusion",
     "bin": "ClipboardFusion.exe",
     "shortcuts": [
