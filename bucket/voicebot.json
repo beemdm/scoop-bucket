@@ -1,10 +1,10 @@
 {
-    "version": "3.8.1",
+    "version": "3.8.2",
     "description": "Voice powered game control.",
     "homepage": "https://www.voicebot.net/",
     "license": "Proprietary",
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/123/VoiceBot-3.8.1.zip",
-    "hash": "bb8167e49287ec515bd7ab6415e7dd9654043542fb71f689d7dee8eb20807314",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/123/VoiceBot-3.8.2.zip",
+    "hash": "66a51986333a05c90ece4263f5ac115ce2df9cb6636e3187e93366a1b2bfd71e",
     "extract_dir": "VoiceBot",
     "bin": "VoiceBot.exe",
     "shortcuts": [
