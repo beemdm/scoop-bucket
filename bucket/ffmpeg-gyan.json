@@ -12,13 +12,13 @@
         "bin\\ffprobe.exe"
     ],
     "checkver": {
-        "url": "https://www.gyan.dev/ffmpeg/builds/release-version",
+        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z.ver",
         "regex": "(.+)"
     },
     "autoupdate": {
         "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-essentials_build.7z",
         "hash": {
-            "url": "https://www.gyan.dev/ffmpeg/builds/sha256-release-essentials-7z"
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z.sha256"
         },
         "extract_dir": "ffmpeg-$version-essentials_build"
     }

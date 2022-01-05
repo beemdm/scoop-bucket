@@ -1,24 +1,24 @@
 {
-    "version": "2021-11-29-git-86a2123a6e",
+    "version": "2022-01-03-git-68d0a7e446",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2021-11-29-git-86a2123a6e-full_build.7z",
-    "hash": "cd84020f4fcc7a4f2899d2f925b1712c8fef7250079007eda65c7256ae4303c4",
-    "extract_dir": "ffmpeg-2021-11-29-git-86a2123a6e-full_build",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2022-01-03-git-68d0a7e446-full_build.7z",
+    "hash": "cf48584b2dff85a272232876968a6415c97513be182b1f8b256b27a7c0d85228",
+    "extract_dir": "ffmpeg-2022-01-03-git-68d0a7e446-full_build",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
         "bin\\ffprobe.exe"
     ],
     "checkver": {
-        "url": "https://www.gyan.dev/ffmpeg/builds/git-version",
+        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z.ver",
         "regex": "(.+)"
     },
     "autoupdate": {
         "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-full_build.7z",
         "hash": {
-            "url": "https://www.gyan.dev/ffmpeg/builds/sha256-git-full"
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z.sha256"
         },
         "extract_dir": "ffmpeg-$version-full_build"
     }

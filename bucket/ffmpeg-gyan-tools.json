@@ -1,15 +1,16 @@
 {
-    "version": "2020-11-22-git-0066bf4d1a",
+    "version": "2022-01-01-git-d6b2357edd",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "LGPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-tools-2020-11-22-git-0066bf4d1a.zip",
-    "hash": "4afa1cb974ba0d10aebb93a1e10220aa8b52c40cc57dda5461a05b807a06ae1d",
-    "extract_dir": "ffmpeg-tools-2020-11-22-git-0066bf4d1a",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-tools-2022-01-01-git-d6b2357edd.zip",
+    "hash": "1cd470e40dd66f135df15a01c37152ee79a066a4f958012493c430c61bdd8d52",
+    "extract_dir": "ffmpeg-tools-2022-01-01-git-d6b2357edd",
     "bin": [
         "bin\\aviocat.exe",
         "bin\\crypto_bench.exe",
         "bin\\cws2fws.exe",
+        "bin\\enum_options.exe",
         "bin\\ffescape.exe",
         "bin\\ffeval.exe",
         "bin\\ffhash.exe",
@@ -25,13 +26,13 @@
         "bin\\zmqsend.exe"
     ],
     "checkver": {
-        "url": "https://www.gyan.dev/ffmpeg/builds/tools-version",
-        "regex": "(.+)"
+        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-tools.zip.ver",
+        "regex": "(.+)-www\\.gyan\\.dev"
     },
     "autoupdate": {
         "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-tools-$version.zip",
         "hash": {
-            "url": "https://www.gyan.dev/ffmpeg/builds/sha256-tools"
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-tools.zip.sha256"
         },
         "extract_dir": "ffmpeg-tools-$version"
     }

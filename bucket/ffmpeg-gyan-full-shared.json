@@ -12,13 +12,13 @@
         "bin\\ffprobe.exe"
     ],
     "checkver": {
-        "url": "https://www.gyan.dev/ffmpeg/builds/release-version",
+        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full-shared.7z.ver",
         "regex": "(.+)"
     },
     "autoupdate": {
         "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-full_build-shared.7z",
         "hash": {
-            "url": "https://www.gyan.dev/ffmpeg/builds/sha256-release-full-shared"
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full-shared.7z.sha256"
         },
         "extract_dir": "ffmpeg-$version-full_build-shared"
     }
