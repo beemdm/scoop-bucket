@@ -1,10 +1,10 @@
 {
-    "version": "0.31.2",
+    "version": "0.31.1",
     "description": "A CalDAV and CardDAV adapter for EteSync.",
     "homepage": "https://www.etesync.com/",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/etesync/etesync-dav/releases/download/v0.31.2/etesync-dav.exe",
-    "hash": "cec9688e1b3be74a42f595bbcb7cace62957e7d97169afcc123ea2ba98413351",
+    "url": "https://github.com/etesync/etesync-dav/releases/download/v0.31.1/etesync-dav.exe",
+    "hash": "c1362f0dbea4179f86fd336528c886fdc832e8e0043740771eeb4b7fb8b72bad",
     "bin": "etesync-dav.exe",
     "shortcuts": [
         [
