@@ -1,10 +1,10 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.2",
     "description": "A decentralized, privacy-preserving, multi-party messaging protocol.",
     "homepage": "https://cwtch.im/",
     "license": "MIT",
-    "url": "https://cwtch.im/releases/cwtch-v1.6.0/cwtch-v1.6.0.zip",
-    "hash": "c91439cfbf0fe62576b8e2e8cf21e082104ce835ab35350bc9db641c617ea15d",
+    "url": "https://cwtch.im/releases/cwtch-v1.6.2/cwtch-v1.6.2.zip",
+    "hash": "912e45dfc6a2511acb4a408f236dbb110654e8c8bc9d0bb94e074e69ee47dfaf",
     "pre_install": "Move-Item -Path $dir\\*\\* -Destination $dir",
     "bin": "cwtch.exe",
     "shortcuts": [
@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://cwtch.im/download/",
-        "regex": "EXE: <a href=\".*?\">cwtch-v([\\d.]+).zip</a>"
+        "regex": "/releases/cwtch-v([\\d.]+)/"
     },
     "autoupdate": {
         "url": "https://cwtch.im/releases/cwtch-v$version/cwtch-v$version.zip",
