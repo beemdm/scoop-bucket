@@ -1,10 +1,10 @@
 {
-    "version": "4.4",
+    "version": "4.5",
     "description": "Compute and check hashes with one click.",
     "homepage": "https://www.binaryfortress.com/HashTools/",
     "license": "Proprietary",
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/109/HashTools-4.4.zip",
-    "hash": "efc06cff5a06bf20f01350e1b8d54c8640cbe1721acc682e54314ea16e282c13",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/109/HashTools-4.5.zip",
+    "hash": "f90433761b645166d9ea0528883af19770eb56725e6334d59a27e0a3a23e6eb1",
     "extract_dir": "HashTools",
     "bin": "HashTools.exe",
     "shortcuts": [
