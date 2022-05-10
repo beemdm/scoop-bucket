@@ -26,7 +26,7 @@
         "bin\\zmqsend.exe"
     ],
     "checkver": {
-        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-tools.zip.ver",
+        "url": "https://www.gyan.dev/ffmpeg/builds/tools-version",
         "regex": "(.+)-www\\.gyan\\.dev"
     },
     "autoupdate": {
