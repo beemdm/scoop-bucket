@@ -5,6 +5,9 @@
     "license": "Apache-2.0",
     "url": "https://github.com/ether/etherpad-lite/releases/download/1.8.18/etherpad-lite-win.zip#/dl.7z",
     "hash": "b76830e80a207c8d189344e13446468acf90aaa5d62aff3f3dcc51c8bc624f06",
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\etherpad-lite-win.zip\" -Removal"
+    },
     "shortcuts": [
         [
             "node.exe",

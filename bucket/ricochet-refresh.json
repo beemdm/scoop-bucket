@@ -1,19 +1,18 @@
 {
-    "version": "3.0.10",
+    "version": "3.0.11",
     "description": "Anonymous peer-to-peer instant messaging.",
     "homepage": "https://www.ricochetrefresh.net/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.10-release/ricochet-refresh-3.0.10-windows-x86_64.exe#/dl.7z",
-            "hash": "30fd107c5336733a6af6d568d65a514197b05180e5e66a35be4dc6627e8655e2"
+            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.11-release/ricochet-refresh-3.0.11-x86_64-installer.exe#/dl.7z",
+            "hash": "b18c7e2ae4983f9744d9fdf427da2e9b2b2b662ec93f5179804c6213a5517419"
         },
         "32bit": {
-            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.10-release/ricochet-refresh-3.0.10-windows-i686.exe#/dl.7z",
-            "hash": "b10121c178a50060f95cdf7e5dfc0757137a2a94fedb35f1f9fb9b5a0529ea9b"
+            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.11-release/ricochet-refresh-3.0.11-i686-installer.exe#/dl.7z",
+            "hash": "7040c165637a7ef6e21cf069874a75397ad8bd2ee855611056cf464d9a1a33f2"
         }
     },
-    "extract_dir": "Ricochet Refresh",
     "bin": "ricochet-refresh.exe",
     "shortcuts": [
         [
@@ -27,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v$version-release/ricochet-refresh-$version-windows-x86_64.exe#/dl.7z"
+                "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v$version-release/ricochet-refresh-$version-x86_64-installer.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v$version-release/ricochet-refresh-$version-windows-i686.exe#/dl.7z"
+                "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v$version-release/ricochet-refresh-$version-i686-installer.exe#/dl.7z"
             }
         },
         "hash": "$url.sha256"

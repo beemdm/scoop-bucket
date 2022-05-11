@@ -1,11 +1,11 @@
 {
-    "version": "3.0",
+    "version": "3.0.1",
     "description": "Inspect your desktop windows.",
     "homepage": "https://www.binaryfortress.com/WindowInspector/",
     "license": "Proprietary",
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/126/WindowInspector-3.0.zip",
-    "hash": "fdd539eed6cd717e476e4d8c1719e179cfc7a326a0f578588239e8e5113bcc53",
-    "extract_dir": "WindowInspector",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/126/WindowInspector-3.0.1-x64.zip",
+    "hash": "275005364731be7bc252c9e2e5839af8b3eada921660561439c2b89d2910037e",
+    "extract_dir": "Window Inspector64",
     "bin": "Window Inspector.exe",
     "shortcuts": [
         [
@@ -18,7 +18,7 @@
         "regex": "<b>Latest Version:<\\/b> v([\\d.]+) "
     },
     "autoupdate": {
-        "url": "https://binaryfortressdownloads.com/Download/BFSFiles/126/WindowInspector-$version.zip",
+        "url": "https://binaryfortressdownloads.com/Download/BFSFiles/126/WindowInspector-$version-x64.zip",
         "hash": "$url.sha256"
     }
 }
