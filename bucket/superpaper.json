@@ -1,10 +1,10 @@
 {
-    "version": "2.0.2",
+    "version": "2.1.0",
     "description": "A cross-platform multi monitor wallpaper manager.",
     "homepage": "https://github.com/hhannine/superpaper",
     "license": "MIT",
-    "url": "https://github.com/hhannine/superpaper/releases/download/v2.0.2/superpaper-win-portable.zip",
-    "hash": "9864065fdfdae70127399442133a0f24f9136e3f268b2610521826892ccfc808",
+    "url": "https://github.com/hhannine/superpaper/releases/download/v2.1.0/superpaper-win-portable.zip",
+    "hash": "0ba42b930d19b7d8c70fdaca704304d892312e81f181727a8c8d29782a6aa1a8",
     "extract_dir": "superpaper-portable",
     "bin": "superpaper/superpaper.exe",
     "shortcuts": [
