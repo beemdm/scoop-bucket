@@ -5,9 +5,7 @@
     "license": "Proprietary",
     "url": "https://www.cyotek.com/downloads/get/setup-cyopaled-1.7.0.411.exe#/setup-cyopaled.exe",
     "hash": "7cae01a828ca24facd8a9be9f81c4edada406c30fdde9dadf1c7ba823f51d7c9",
-    "installer": {
-        "script": "Expand-InnoArchive \"$dir\\setup-cyopaled.exe\" -Removal"
-    },
+    "innosetup": true,
     "bin": "cyopaled.exe",
     "shortcuts": [
         [

@@ -5,9 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/navossoc/MenuTools/releases/download/1.0.2/menutools-setup-1.0.2.exe#/menutools-setup.exe",
     "hash": "3fc6c21ad78d1bdbef8464b02fac7735ac2bc8b131063021afa037df617a258c",
-    "installer": {
-        "script": "Expand-InnoArchive \"$dir\\menutools-setup.exe\" -Removal"
-    },
+    "innosetup": true,
     "bin": "MenuTools.exe",
     "shortcuts": [
         [

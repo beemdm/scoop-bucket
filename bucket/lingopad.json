@@ -5,9 +5,7 @@
     "license": "Proprietary",
     "url": "http://www.lingo4u.de/download/setup_dictionary.exe",
     "hash": "26369e028f862602e74ed0516b5b8dec0133d685e1bf89482d4969467fc89fe0",
-    "installer": {
-        "script": "Expand-InnoArchive \"$dir\\setup_dictionary.exe\" -Removal"
-    },
+    "innosetup": true,
     "bin": "LingoPad.exe",
     "shortcuts": [
         [
