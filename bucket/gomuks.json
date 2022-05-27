@@ -1,10 +1,10 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.3",
     "description": "A terminal based Matrix client written in Go.",
     "homepage": "https://maunium.net/go/gomuks/",
     "license": "AGPL-3.0-or-later",
-    "url": "https://github.com/tulir/gomuks/releases/download/v0.2.4/gomuks-windows-amd64.exe#/gomuks.exe",
-    "hash": "b68d2c5239e7c27bc0a3a44ff737c2f6353cdfa203be218225e4c3eb84315cb9",
+    "url": "https://github.com/tulir/gomuks/releases/download/v0.2.3/gomuks-windows-amd64.exe#/gomuks.exe",
+    "hash": "e57b8b3b5c8e8c8ef915c7c2796eed8a2ff43350b63248b1d2c196b432f25122",
     "bin": "gomuks.exe",
     "shortcuts": [
         [
