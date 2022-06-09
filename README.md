@@ -1,4 +1,4 @@
-# 🧟 tlz's [Scoop](https://scoop.sh/) bucket [![Excavator](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml/badge.svg)](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml) 🪣
+# 🧟 tlz's [Scoop](https://scoop.sh/) + [Shovel](https://shovel.ash258.com/) bucket [![Excavator](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml/badge.svg)](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml) 🪣
 
 Originally created so that I could finish my Windows 10 setup script, I now try to add any applications I come across that meet the [requirements](#requirements), just to make everyone's lives a little bit easier.
 
@@ -10,20 +10,22 @@ Originally created so that I could finish my Windows 10 setup script, I now try 
 
 ## Installation
 
-To add this bucket to your Scoop installation, run the following command:
+To add this bucket to your Scoop or Shovel installation, run one of the following commands:
 
 ```
 scoop bucket add tlz https://github.com/TheLastZombie/scoop-bucket
+shovel bucket add tlz https://github.com/TheLastZombie/scoop-bucket
 ```
 
 **tlz** is the recommended title, though you can replace it with any name you'd like.
 
 ## Uninstallation
 
-If you decide you no longer need this bucket, run the following command to uninstall it:
+If you decide you no longer need this bucket, run one of the following commands to uninstall it:
 
 ```
 scoop bucket rm tlz
+shovel bucket rm tlz
 ```
 
 This will not remove any applications installed from this bucket, though it will prevent you from getting any new updates for them.
