@@ -34,7 +34,7 @@ If you chose a different title during the installation above, you'll have to rep
 
 ## Applications
 
-To view a list of all included applications, head over to the [Scoop directory](https://rasa.github.io/scoop-directory/by-bucket#TheLastZombie_scoop-bucket) or, if you prefer, take a look inside the [bucket folder](https://github.com/TheLastZombie/scoop-bucket/tree/master/bucket).
+To view a list of all included applications, head over to the [Scoop website](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2FTheLastZombie%2Fscoop-bucket%22&s=1&d=0&o=false), [Scoop directory](https://rasa.github.io/scoop-directory/by-bucket#TheLastZombie_scoop-bucket) or take a look inside the [bucket folder](https://github.com/TheLastZombie/scoop-bucket/tree/master/bucket).
 
 ## Disclaimer
 
