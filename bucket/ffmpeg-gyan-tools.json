@@ -6,25 +6,7 @@
     "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-tools-2022-01-01-git-d6b2357edd.zip",
     "hash": "1cd470e40dd66f135df15a01c37152ee79a066a4f958012493c430c61bdd8d52",
     "extract_dir": "ffmpeg-tools-2022-01-01-git-d6b2357edd",
-    "bin": [
-        "bin\\aviocat.exe",
-        "bin\\crypto_bench.exe",
-        "bin\\cws2fws.exe",
-        "bin\\enum_options.exe",
-        "bin\\ffescape.exe",
-        "bin\\ffeval.exe",
-        "bin\\ffhash.exe",
-        "bin\\fourcc2pixfmt.exe",
-        "bin\\graph2dot.exe",
-        "bin\\ismindex.exe",
-        "bin\\pktdumper.exe",
-        "bin\\probetest.exe",
-        "bin\\qt-faststart.exe",
-        "bin\\seek_print.exe",
-        "bin\\sidxindex.exe",
-        "bin\\venc_data_dump.exe",
-        "bin\\zmqsend.exe"
-    ],
+    "env_add_path": "bin",
     "checkver": {
         "url": "https://www.gyan.dev/ffmpeg/builds/tools-version",
         "regex": "(.+)-www\\.gyan\\.dev"
