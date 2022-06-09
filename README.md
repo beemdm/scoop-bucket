@@ -44,7 +44,7 @@ Please note that some applications might not be portable, i. e. they may:
 - create and modify registry keys and values (e. g. [sshpm](https://thelastzombie.github.io/sshpm/))
 - access your system in other ways (e. g. [Stalkbot](https://github.com/M3IY0U/Stalkbot))
 
-It should also be noted that currently, some applications (e. g. [Bandcamp Downloader](https://github.com/Otiel/BandcampDownloader)) don't persist their files correctly.
+It should also be noted that currently, some applications (e. g. [Revolver Office](https://revolver.info/)) don't persist their files correctly.
 
 ## Requirements
 
