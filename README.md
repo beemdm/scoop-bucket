@@ -55,7 +55,7 @@ For an application to be added, it needs to meet the following criteria:
 - It must not require administrative or elevated privileges for the installation.
 - It needs to provide a way to check for updates, so that it can be [auto-updated](https://github.com/marketplace/actions/bucket-minion).
 
-Currently, the only exceptions to these rules are my own applications and [youtube-dlc](https://blackjack4494.github.io/yt-dlc/).
+Currently, the only exceptions to these rules are my own applications.
 
 ## Contributing
 
