@@ -42,7 +42,7 @@ Please note that some applications might not be portable, i. e. they may:
 
 - create and use directories outside of their own (e. g. [ZOC Terminal](https://www.emtec.com/zoc/))
 - create and modify registry keys and values (e. g. [sshpm](https://thelastzombie.github.io/sshpm/))
-- access your system in other ways (e. g. [Xreveal](https://yubsoft.com/xreveal/))
+- access your system in other ways (e. g. [Stalkbot](https://github.com/M3IY0U/Stalkbot))
 
 It should also be noted that currently, some applications (e. g. [Bandcamp Downloader](https://github.com/Otiel/BandcampDownloader)) don't persist their files correctly.
 
@@ -53,7 +53,7 @@ For an application to be added, it needs to meet the following criteria:
 - It must not be available via any other bucket listed on the [Scoop website](https://scoop.sh/#/apps?o=false) or in the [Scoop directory](https://rasa.github.io/scoop-directory/by-bucket).
 - If written in Node.js or Python, it must not be available via [npm](https://www.npmjs.com/) or [pip](https://pip.pypa.io/).
 - It must not require administrative or elevated privileges for the installation.
-- It needs to provide a way to check for updates, so that it can be [auto-updated](https://github.com/marketplace/actions/bucket-minion).
+- It needs to provide a way to check for updates, so that it can be [auto-updated](https://github.com/marketplace/actions/shovel-bucket-minion).
 
 Currently, the only exceptions to these rules are my own applications.
 
