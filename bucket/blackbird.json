@@ -2,7 +2,7 @@
     "version": "1.0.80.2",
     "description": "Windows privacy, security and performance.",
     "homepage": "https://www.getblackbird.net/",
-    "license": "Freeware",
+    "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://www.getblackbird.net/download/Blackbird_v1.0.80.2_x64.zip",
