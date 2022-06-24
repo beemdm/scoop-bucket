@@ -1,10 +1,10 @@
 {
-    "version": "2.0.6",
+    "version": "2.0.7",
     "description": "Single-file distributable web server.",
     "homepage": "https://redbean.dev/",
     "license": "ISC",
-    "url": "https://redbean.dev/redbean-demo-2.0.6.com#/redbean.com",
-    "hash": "31cb6997124c4137abf80620f990eabf098f6957f740cd73bed1329860f8f876",
+    "url": "https://redbean.dev/redbean-demo-2.0.7.com#/redbean.com",
+    "hash": "742401fa0ec2648c392f32d5afae239ab3262f3370baf1680fc76f72b102772d",
     "bin": "redbean.com",
     "shortcuts": [
         [
