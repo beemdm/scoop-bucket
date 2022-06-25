@@ -1,18 +1,18 @@
 {
-    "version": "1.0.80.2",
+    "version": "1.0.85.1",
     "description": "Windows privacy, security and performance.",
     "homepage": "https://www.getblackbird.net/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.getblackbird.net/download/Blackbird_v1.0.80.2_x64.zip",
-            "hash": "61fb8601f4da6d02313fa7740b4733a04570a22482141b88102b6d2cce336071",
-            "extract_dir": "blackbird_v1.0.80.2_64"
+            "url": "https://www.getblackbird.net/download/Blackbird_v1.0.85.1_x64.zip",
+            "hash": "65c6f89ca84b2348bfaf3d2b32667a8ea342db457ff753638732e9d451989174",
+            "extract_dir": "blackbird_v1.0.85.1_64"
         },
         "32bit": {
-            "url": "https://www.getblackbird.net/download/Blackbird_v1.0.80.2_x32.zip",
-            "hash": "f5868bc1da1ffcd09d73918f81870e78dfd0602ba56191b936dd32770d301073",
-            "extract_dir": "blackbird_v1.0.80.2_32"
+            "url": "https://www.getblackbird.net/download/Blackbird_v1.0.85.1_x32.zip",
+            "hash": "8f152850ae16ba20406441f508ed1cfabe679efaa5fe9807e9f6cca671b346c4",
+            "extract_dir": "blackbird_v1.0.85.1_32"
         }
     },
     "bin": "blackbird.exe",
