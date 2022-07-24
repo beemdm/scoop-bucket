@@ -1,11 +1,11 @@
 {
-    "version": "5.0.1",
+    "version": "5.1",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-5.0.1-essentials_build.7z",
-    "hash": "90eb0c264ab341139ef71d7d9d417080ad40a1676b8c09d5da37baaf80873cc7",
-    "extract_dir": "ffmpeg-5.0.1-essentials_build",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-5.1-essentials_build.7z",
+    "hash": "569676d81fc77f81f23ead54fda37581b35baa0ac46e32fd0136d1eca4b07913",
+    "extract_dir": "ffmpeg-5.1-essentials_build",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
