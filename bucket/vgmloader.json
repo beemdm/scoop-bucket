@@ -1,7 +1,7 @@
 {
     "version": "1.8.1",
     "description": "Automatically downloads albums from khinsider.com.",
-    "homepage": "https://github.com/TheLastZombie/VGMLoader",
+    "homepage": "https://codeberg.org/sun/VGMLoader",
     "license": "Unlicense",
     "url": "https://github.com/TheLastZombie/VGMLoader/releases/download/1.8.1/VGMLoader.exe",
     "hash": "e1b35a5cb684268649b0a6a5c3d6e917e042ae4ea5a3beb0fd38f313b70f085c",
@@ -12,7 +12,10 @@
             "VGMLoader"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://codeberg.org/api/v1/repos/sun/VGMLoader/releases",
+        "jp": "$[0].tag_name"
+    },
     "autoupdate": {
         "url": "https://github.com/TheLastZombie/VGMLoader/releases/download/$version/VGMLoader.exe",
         "hash": "$url.sha256"

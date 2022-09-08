@@ -1,7 +1,7 @@
 {
     "version": "1.0.0-rc.1",
     "description": "The SSH profile manager.",
-    "homepage": "https://git.io/sshpm",
+    "homepage": "https://codeberg.org/sun/sshpm",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -16,8 +16,8 @@
     "extract_dir": "sshpm",
     "bin": "bin/sshpm.cmd",
     "checkver": {
-        "url": "https://github.com/TheLastZombie/sshpm/releases",
-        "regex": "<a href=\".+/tree/(.+?)\" data-view-component=\"true\""
+        "url": "https://codeberg.org/api/v1/repos/sun/sshpm/releases",
+        "jp": "$[0].tag_name"
     },
     "autoupdate": {
         "architecture": {
