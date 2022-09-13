@@ -1,4 +1,4 @@
-# 🧟 tlz's [Scoop](https://scoop.sh/) + [Shovel](https://shovel.ash258.com/) bucket [![Excavator](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml/badge.svg)](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml) 🪣
+# 🧟 Sunny's [Scoop](https://scoop.sh/) + [Shovel](https://shovel.ash258.com/) bucket [![Excavator](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml/badge.svg)](https://github.com/TheLastZombie/scoop-bucket/actions/workflows/schedule.yml) 🪣
 
 Originally created so that I could finish my Windows 10 setup script, I now try to add any applications I come across that meet the [requirements](#requirements), just to make everyone's lives a little bit easier.
 
@@ -13,24 +13,24 @@ Originally created so that I could finish my Windows 10 setup script, I now try 
 To add this bucket to your Scoop or Shovel installation, run one of the following commands:
 
 ```
-scoop bucket add tlz https://github.com/TheLastZombie/scoop-bucket
-shovel bucket add tlz https://github.com/TheLastZombie/scoop-bucket
+scoop bucket add sun https://github.com/TheLastZombie/scoop-bucket
+shovel bucket add sun https://github.com/TheLastZombie/scoop-bucket
 ```
 
-**tlz** is the recommended title, though you can replace it with any name you'd like.
+**sun** is the recommended title, though you can replace it with any name you'd like.
 
 ## Uninstallation
 
 If you decide you no longer need this bucket, run one of the following commands to uninstall it:
 
 ```
-scoop bucket rm tlz
-shovel bucket rm tlz
+scoop bucket rm sun
+shovel bucket rm sun
 ```
 
 This will not remove any applications installed from this bucket, though it will prevent you from getting any new updates for them.
 
-If you chose a different title during the installation above, you'll have to replace **tlz** with the one you chose.
+If you chose a different title during the installation above, you'll have to replace **sun** with the one you chose.
 
 ## Applications
 
@@ -41,7 +41,7 @@ To view a list of all included applications, head over to the [Scoop website](ht
 Please note that some applications might not be portable, i. e. they may:
 
 - create and use directories outside of their own (e. g. [ZOC Terminal](https://www.emtec.com/zoc/))
-- create and modify registry keys and values (e. g. [sshpm](https://thelastzombie.github.io/sshpm/))
+- create and modify registry keys and values (e. g. [sshpm](https://codeberg.org/sun/sshpm))
 - access your system in other ways (e. g. [Stalkbot](https://github.com/M3IY0U/Stalkbot))
 
 It should also be noted that currently, some applications (e. g. [Revolver Office](https://revolver.info/)) don't persist their files correctly.
@@ -54,8 +54,6 @@ For an application to be added, it needs to meet the following criteria:
 - If written in Node.js or Python, it must not be available via [npm](https://www.npmjs.com/) or [pip](https://pip.pypa.io/).
 - It must not require administrative or elevated privileges for the installation.
 - It needs to provide a way to check for updates, so that it can be [auto-updated](https://github.com/marketplace/actions/shovel-bucket-minion).
-
-Currently, the only exceptions to these rules are my own applications.
 
 ## Contributing
 
