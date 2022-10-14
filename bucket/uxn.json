@@ -4,7 +4,7 @@
     "homepage": "https://wiki.xxiivv.com/site/uxn.html",
     "license": "MIT",
     "url": "https://rabbits.srht.site/uxn/uxn-essentials-win64.zip",
-    "hash": "6d6a132a116aa24f7d66eedd5627bd9149fa1d9a392423de412b5fd8024a8191",
+    "hash": "9c1b7cedd986f8bf8abfae397d3f44706729aa7a848a608e539fe2259777f385",
     "extract_dir": "uxn",
     "bin": [
         "uxnasm.exe",

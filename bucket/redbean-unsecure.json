@@ -6,12 +6,6 @@
     "url": "https://redbean.dev/redbean-unsecure-2.1.com#/redbean.com",
     "hash": "f9b3de2ad01319114df955b14de334fbe10e5563450be946dce22feeab712740",
     "bin": "redbean.com",
-    "shortcuts": [
-        [
-            "redbean.com",
-            "redbean"
-        ]
-    ],
     "checkver": {
         "url": "https://redbean.dev/",
         "regex": "redbean-([\\d.]+).com"

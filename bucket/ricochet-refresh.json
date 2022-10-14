@@ -1,16 +1,16 @@
 {
-    "version": "3.0.13",
+    "version": "3.0.15",
     "description": "Anonymous peer-to-peer instant messaging.",
     "homepage": "https://www.ricochetrefresh.net/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.13-release/ricochet-refresh-3.0.13-windows-x86_64-installer.exe#/dl.7z",
-            "hash": "17aac8dda360a602a54f2053e266caf89eacfa8d4d2a824d9136205af3e027b7"
+            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.15-release/ricochet-refresh-3.0.15-windows-x86_64-installer.exe#/dl.7z",
+            "hash": "7fbf96fe39793c85b060e3654171c9b7c2cad971a3235826fa7669f1559bf974"
         },
         "32bit": {
-            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.13-release/ricochet-refresh-3.0.13-windows-i686-installer.exe#/dl.7z",
-            "hash": "073efc711c48dd45367f9a2439deb0f30f492ba0e42f532c80a0c8071c1dbb8d"
+            "url": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.15-release/ricochet-refresh-3.0.15-windows-i686-installer.exe#/dl.7z",
+            "hash": "aa9b4f7873a12523e47fe815b1333f5bb65fa0a3ab3531a4cb9f7f1d1612ee3f"
         }
     },
     "bin": "ricochet-refresh.exe",

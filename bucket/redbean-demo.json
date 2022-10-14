@@ -6,12 +6,6 @@
     "url": "https://redbean.dev/redbean-demo-2.1.com#/redbean.com",
     "hash": "90ed9c709701cd59ccff0ed697ee82051b61d5e2fedd492498d5477d7a33ae7e",
     "bin": "redbean.com",
-    "shortcuts": [
-        [
-            "redbean.com",
-            "redbean"
-        ]
-    ],
     "checkver": {
         "url": "https://redbean.dev/",
         "regex": "redbean-([\\d.]+).com"
