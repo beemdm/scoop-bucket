@@ -1,10 +1,10 @@
 {
-    "version": "5496712a",
+    "version": "1064d88b",
     "description": "An assembler and emulator for the Uxn stack-machine, written in ANSI C.",
     "homepage": "https://wiki.xxiivv.com/site/uxn.html",
     "license": "MIT",
     "url": "https://rabbits.srht.site/uxn/uxn-essentials-win64.zip",
-    "hash": "9c1b7cedd986f8bf8abfae397d3f44706729aa7a848a608e539fe2259777f385",
+    "hash": "a554d7f2dd1653f8c6e300a1e3c9efd9b3d4788da719fb925eaaf7edbb078b11",
     "extract_dir": "uxn",
     "bin": [
         "uxnasm.exe",
