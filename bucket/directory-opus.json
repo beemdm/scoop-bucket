@@ -1,0 +1,27 @@
+{
+    "version": "12.29",
+    "description": "The file manager for Windows.",
+    "homepage": "https://www.gpsoft.com.au/",
+    "license": "Proprietary",
+    "url": "https://cdn.gpsoft.com.au/Opus12/DOpusInstall.exe",
+    "hash": "02f0b5eb31bfc41d54cbafea6054f153cf627e81a44329cd5af95698ae67c872",
+    "innosetup": true,
+    "installer": {
+        "script": "Get-ChildItem -Recurse \"$dir\" -Filter \"*,*\" | Foreach-Object { Move-Item $_.FullName $_.FullName.Replace(\",1\", \"\") }"
+    },
+    "bin": "dopus.exe",
+    "shortcuts": [
+        [
+            "dopus.exe",
+            "Directory Opus"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.gpsoft.com.au/DScripts/download.asp",
+        "regex": "Download Directory Opus ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://cdn.gpsoft.com.au/Opus12/DOpusInstall.exe",
+        "hash": "$url.sha256"
+    }
+}
