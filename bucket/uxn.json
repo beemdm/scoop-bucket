@@ -1,5 +1,5 @@
 {
-    "version": "b1121744",
+    "version": "6224e1eb",
     "description": "An assembler and emulator for the Uxn stack-machine, written in ANSI C.",
     "homepage": "https://wiki.xxiivv.com/site/uxn.html",
     "license": "MIT",
