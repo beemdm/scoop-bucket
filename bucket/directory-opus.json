@@ -1,10 +1,10 @@
 {
-    "version": "12.29",
+    "version": "12.30",
     "description": "The file manager for Windows.",
     "homepage": "https://www.gpsoft.com.au/",
     "license": "Proprietary",
     "url": "https://cdn.gpsoft.com.au/Opus12/DOpusInstall.exe",
-    "hash": "02f0b5eb31bfc41d54cbafea6054f153cf627e81a44329cd5af95698ae67c872",
+    "hash": "31a417f6b1f3e3a1ee01943e04ca53036327549e877b8a7f3bd522aeaa3a523f",
     "innosetup": true,
     "installer": {
         "script": "Get-ChildItem -Recurse \"$dir\" -Filter \"*,*\" | Foreach-Object { Move-Item $_.FullName $_.FullName.Replace(\",1\", \"\") }"
